@@ -1,0 +1,151 @@
+.particles .box {
+  animation: firstMoveToTop 14s linear infinite;
+  animation-delay: 1s;
+  animation-direction: normal;
+  z-index: 1000;
+}
+
+@keyframes firstMoveToTop {
+  0% {
+    top: 100%;
+    left: 15%;
+  }
+  25% {
+    top: 75%;
+    left: 25%;
+  }
+  50% {
+    top: 50%;
+    left: 35%;
+  }
+  75% {
+    top: 25%;
+    left: 45%;
+  }
+  100% {
+    top: 0;
+    left: 55%;
+  }
+}
+
+.particles .box:nth-child(2) {
+  animation: SecondMoveToTop 14s linear infinite;
+  animation-direction: normal;
+  animation-delay: 2s;
+  z-index: 1000;
+}
+
+@keyframes SecondMoveToTop {
+  0% {
+    top: 100%;
+    left: 25%;
+  }
+  25% {
+    top: 75%;
+    left: 25%;
+  }
+  50% {
+    top: 50%;
+    left: 25%;
+  }
+  75% {
+    top: 25%;
+    left: 25%;
+  }
+  100% {
+    top: 0;
+    left: 25%;
+  }
+}
+
+.particles .box:nth-child(3) {
+  animation: ThirdMoveToTop 14s linear infinite;
+  animation-direction: normal;
+  animation-delay: 3s;
+
+  z-index: 1000;
+}
+
+@keyframes ThirdMoveToTop {
+  0% {
+    top: 100%;
+    left: 55%;
+  }
+  25% {
+    top: 75%;
+    left: 45%;
+  }
+  50% {
+    top: 50%;
+    left: 35%;
+  }
+  75% {
+    top: 25%;
+    left: 35%;
+  }
+  100% {
+    top: 0;
+    left: 40%;
+  }
+}
+
+.particles .box:nth-child(4) {
+  animation: FourMoveToTop 14s linear infinite;
+  animation-direction: normal;
+  animation-delay: 4s;
+
+  z-index: 1000;
+}
+
+@keyframes FourMoveToTop {
+  0% {
+    top: 100%;
+    left: 95%;
+  }
+  25% {
+    top: 75%;
+    left: 90%;
+  }
+  50% {
+    top: 50%;
+    left: 85%;
+  }
+  75% {
+    top: 25%;
+    left: 80%;
+  }
+  100% {
+    top: 0;
+    left: 75%;
+  }
+}
+
+.particles .box:nth-child(5) {
+  animation: FiveMoveToTop 14s linear infinite;
+  animation-direction: normal;
+  z-index: 1000;
+  animation-delay: 5s;
+}
+
+@keyframes FiveMoveToTop {
+  0% {
+    top: 100%;
+    left: 95%;
+  }
+  25% {
+    top: 75%;
+    left: 90%;
+  }
+  50% {
+    top: 50%;
+    left: 90%;
+  }
+  75% {
+    top: 25%;
+    left: 85%;
+  }
+  100% {
+    top: 0;
+    left: 85%;
+  }
+}

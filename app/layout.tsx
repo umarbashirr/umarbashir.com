@@ -1,5 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
-
 import { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { Footer, Header } from "../components";
@@ -8,6 +6,7 @@ import "../styles/particles.css";
 import Facebook from "./Facebook";
 import GoogleAnalytics from "./GoogleAnalytics";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Portfolio | Software Developer",
@@ -49,7 +48,7 @@ export default function RootLayout({
     <html lang="en">
       <GoogleAnalytics GTM_ID={process.env.GTM_ID!} />
       <body>
-        <Analytics />
+        <SpeedInsights />
         <Facebook />
         <noscript
           dangerouslySetInnerHTML={{

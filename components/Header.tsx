@@ -47,7 +47,6 @@ const Header = () => {
                 fill
               />
             </div>
-            <span className="text-2xl font-extrabold">Umar Bashir</span>
           </Link>
           <nav className="flex-grow justify-end hidden md:flex space-x-4 items-center">
             {NAV_MENU.map(({ label, path }, index) => {

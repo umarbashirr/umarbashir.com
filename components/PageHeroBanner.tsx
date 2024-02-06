@@ -22,6 +22,7 @@ const PageHeroBanner = (props: { title: any; bc: any[] }) => {
             <Link
               href="/contact"
               className="sm:-mt-8 bg-white py-3 px-6 sm:py-4 sm:px-12 rounded-md shadow-md text-sm sm:text-lg text-dark-color border-2 border-gray-800  hover:bg-gray-800 hover:text-white duration-300 "
+              aria-labelledby="hire me now button"
             >
               Hire Me Now
             </Link>

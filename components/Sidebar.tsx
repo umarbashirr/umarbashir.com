@@ -28,7 +28,11 @@ const Sidebar = ({
     >
       <div className="flex flex-col">
         <div className="flex justify-between items-center mr-5">
-          <Link href="/" className="relative w-10 h-10 m-5">
+          <Link
+            href="/"
+            className="relative w-10 h-10 m-5"
+            aria-labelledby="Umar Bashir Portfolio logo"
+          >
             <Image src="/images/Logo.svg" alt="Cool Tech Design Logo" fill />
           </Link>
           <button

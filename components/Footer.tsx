@@ -69,6 +69,7 @@ const Footer = () => {
                 href="https://www.facebook.com/umarbashirrr/"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
+                aria-labelledby="facebook"
               >
                 <FaFacebook className="w-9 h-9" />
               </Link>
@@ -76,6 +77,7 @@ const Footer = () => {
                 href="https://instagram.com/umarbashirrr"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
+                aria-labelledby="instagram"
               >
                 <FaInstagram className="w-9 h-9" />
               </Link>
@@ -83,6 +85,7 @@ const Footer = () => {
                 href="https://twitter.com/umarbashirr"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
+                aria-labelledby="twitter"
               >
                 <BsTwitterX className="w-9 h-9" />
               </Link>
@@ -90,6 +93,7 @@ const Footer = () => {
                 href="https://linkedin.com/in/umarbashirr"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
+                aria-labelledby="linkedin"
               >
                 <FaLinkedin className="w-9 h-9" />
               </Link>
@@ -97,6 +101,7 @@ const Footer = () => {
                 href="https://github.com/umarbashirr"
                 target="_blank"
                 className="flex items-center justify-start space-x-2 "
+                aria-labelledby="github"
               >
                 <FaGithubSquare className="w-9 h-9" />
               </Link>
@@ -104,7 +109,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-10 flex items-center justify-center">
-          <p></p>
+          <p>
+            &copy; {new Date().getFullYear()} Umar Bashir. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

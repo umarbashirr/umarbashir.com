@@ -39,7 +39,11 @@ const Header = () => {
         }`}
       >
         <div className="container mx-auto px-5  flex justify-start items-center">
-          <Link href="/" className="flex items-center justify-start gap-2">
+          <Link
+            href="/"
+            className="flex items-center justify-start gap-2"
+            aria-labelledby="Umar Bashir Portfolio logo"
+          >
             <div className="relative w-10 h-10">
               <Image
                 src="/images/Logo.svg"

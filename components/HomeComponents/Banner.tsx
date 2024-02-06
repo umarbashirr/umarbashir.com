@@ -10,6 +10,7 @@ const Banner = () => {
       <Link
         href="/contact-us"
         className="bg-dark-primary-color border-2 border-transparent hover:bg-transparent hover:border-dark-primary-color hover:text-dark-primary-color px-8 py-4 md:px-16 text-white font-semibold rounded-md shadow-md inline-flex duration-200 ease-in-out"
+        aria-labelledby="Get in touch button"
       >
         Get in touch
       </Link>

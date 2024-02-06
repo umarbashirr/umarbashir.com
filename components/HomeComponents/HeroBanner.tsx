@@ -3,22 +3,20 @@ import React from "react";
 
 const HeroBanner = () => {
   return (
-    <section
-      className="hero bg-[#fafafa] lg:h-screen w-full pt-20"
-      id="heroSection"
-    >
+    <section className="hero bg-[#fafafa] h-full w-full pt-20" id="heroSection">
       <div className="container  mx-auto px-5 h-full w-full grid lg:grid-cols-2 items-center">
         <div className="py-20">
-          <h1 className="uppercase text-base font-bold py-1 inline-flex rounded-xl mb-4">
+          <span className="uppercase text-base font-bold py-1 inline-flex rounded-xl mb-4">
             Hey there, I&lsquo;m
-          </h1>
-          <h2 className="text-5xl md:text-7xl font-bold mb-8 leading-tight up">
+          </span>
+          <h1 className="text-3xl md:text-5xl font-bold mb-8 leading-tight up">
             Umar Bashir 👋
             <span className="text-dark-primary-color leading-tight inline-block">
               Software Developer
             </span>{" "}
+            <br />
             from India
-          </h2>
+          </h1>
           <p className="text-base md:text-xl w-[80%] leading-9">
             I specialize in building high-quality, fully responsive, and
             user-friendly websites and web applications using modern web tools &

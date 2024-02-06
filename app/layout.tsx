@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { Footer, Header } from "../components";
@@ -19,7 +21,6 @@ export const metadata: Metadata = {
     "software developer, web developer, web designer, react developer, nextjs developer, jamstack developer, full stack developer, front end developer, back end developer, web developer in srinagar, web developer in india, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir",
   authors: [{ name: "Umar Bashir Rather", url: "https://umarbashir.com" }],
   robots: { index: true, follow: true },
-  viewport: { width: "device-width", initialScale: 1 },
   applicationName: "Umar Bashir Portfolio",
   alternates: {
     canonical: `https://umarbashir.com`,
@@ -29,6 +30,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#ffffff",
+  viewportFit: "auto",
+  initialScale: 1,
 };
 
 const poppin = Poppins({
@@ -48,6 +51,7 @@ export default function RootLayout({
     <html lang="en">
       <GoogleAnalytics GTM_ID={process.env.GTM_ID!} />
       <body>
+        <Analytics />
         <SpeedInsights />
         <Facebook />
         <noscript

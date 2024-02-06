@@ -1,7 +1,13 @@
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaGithubSquare,
+  FaInstagram,
+  FaLinkedin,
+  FaPhone,
+} from "react-icons/fa";
 import { FooterMenu } from "../utils/siteData";
 
 const Footer = () => {
@@ -11,34 +17,27 @@ const Footer = () => {
         <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-y-8 md:space-y-0 md:space-x-4">
           <div className="mr-10">
             <div className="flex justify-start items-center space-x-2">
-              <div className="relative h-10 w-10">
-                <Image
-                  src="/images/Logo.svg"
-                  alt="Cool Tech Design Logo"
-                  fill
-                />{" "}
-              </div>
-              <p className="text-lg font-bold">Cool Tech Design</p>
+              <h2 className="capitalize text-2xl">About Me</h2>
             </div>
-            <p className="mt-4">
-              Cool Tech Design helps businesses to create and execute a
-              comprehensive digital strategy to increase visibility and drive
-              growth. We work closely with clients to understand their goals and
-              tailor their services to meet their specific needs.
+            <p className="mt-4 leading-[32px]">
+              Hi, I'm Umar Bashir, a software developer from India. I specialize
+              in building high-quality, fully responsive, and user-friendly
+              websites and web applications using modern web tools &
+              technologies.
             </p>
           </div>
           {/* Second Column */}
           <div>
-            <h2 className="capitalize text-2xl">Reach To Us</h2>
+            <h2 className="capitalize text-2xl">Reach To Me</h2>
             <div className="flex flex-col gap-y-4 mt-4 md:mt-6">
               <Link
-                href="mailto:info.cooltechdesign@gmail.com"
+                href="mailto:umarbashir601@gmail.com"
                 className="flex items-center justify-start space-x-2 hover:text-secondary-color"
               >
-                <FaEnvelope /> <span>info.cooltechdesign@gmail.com</span>
+                <FaEnvelope /> <span>umarbashir601@gmail.com</span>
               </Link>
               <Link
-                href="tel:00917889737464"
+                href="tel:+917889737464"
                 className="flex items-center justify-start space-x-2 hover:text-secondary-color"
               >
                 <FaPhone /> <span>+91 7889737464</span>
@@ -64,47 +63,48 @@ const Footer = () => {
           </div>
           {/* Fourth Column */}
           <div>
-            <h2 className="capitalize text-2xl">Our Social Media</h2>
-            <div className="flex flex-col gap-y-4 mt-4 md:mt-6">
+            <h2 className="capitalize text-2xl">Social Media</h2>
+            <div className="flex gap-4 mt-4 md:mt-6 ">
               <Link
-                href="https://facebook.com/cooltechdesign"
+                href="https://www.facebook.com/umarbashirrr/"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
               >
-                <div className="relative h-9 w-9">
-                  <Image src="/images/facebook.svg" alt="facebook logo" fill />
-                </div>{" "}
-                <span>Facebook</span>
+                <FaFacebook className="w-9 h-9" />
               </Link>
               <Link
-                href="https://instagram.com/cooltechdesign"
+                href="https://instagram.com/umarbashirrr"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
               >
-                <div className="relative h-9 w-9">
-                  <Image
-                    src="/images/instagram.svg"
-                    alt="instagram logo"
-                    fill
-                  />
-                </div>{" "}
-                <span>Instagram</span>
+                <FaInstagram className="w-9 h-9" />
               </Link>
               <Link
-                href="https://twitter.com/cooltechdesign_"
+                href="https://twitter.com/umarbashirr"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
               >
-                <div className="relative h-9 w-9">
-                  <Image src="/images/twitter.svg" alt="facebook logo" fill />
-                </div>{" "}
-                <span>Twitter</span>
+                <BsTwitterX className="w-9 h-9" />
+              </Link>
+              <Link
+                href="https://linkedin.com/in/umarbashirr"
+                target="_blank"
+                className="flex items-center justify-start space-x-2"
+              >
+                <FaLinkedin className="w-9 h-9" />
+              </Link>
+              <Link
+                href="https://github.com/umarbashirr"
+                target="_blank"
+                className="flex items-center justify-start space-x-2 "
+              >
+                <FaGithubSquare className="w-9 h-9" />
               </Link>
             </div>
           </div>
         </div>
         <div className="mt-10 flex items-center justify-center">
-          <p>Copyrighted &copy; 2023 by Cool Tech Design</p>
+          <p></p>
         </div>
       </div>
     </footer>

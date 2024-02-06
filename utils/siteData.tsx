@@ -54,10 +54,6 @@ export const FooterMenu = [
     label: "terms and conditions",
     path: "/terms-and-conditions",
   },
-  {
-    label: "cancellation and refund policy",
-    path: "/cancellation-and-refund-policy",
-  },
 ];
 
 export const SIDEBAR_ADMIN_MENU = [

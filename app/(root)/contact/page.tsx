@@ -6,22 +6,22 @@ import { Metadata } from "next";
 import ContactForm from "./components/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Cool Tech Design",
+  title: "Contact | Umar Bashir Rather | Software Developer",
   alternates: {
-    canonical: `${process.env.APP_URL}/contact-us`,
+    canonical: `${process.env.APP_URL}/contact`,
   },
 };
 
 const breadcrumb = [
   { url: `${process.env.APP_URL}`, name: "Home" },
-  { url: `${process.env.APP_URL}/contact-us`, name: "Contact Us" },
+  { url: `${process.env.APP_URL}/contact-me`, name: "Contact" },
 ];
 
 const ContactPage = () => {
   return (
     <>
       <React.Fragment>
-        <PageHeroBanner title="Contact Us" bc={breadcrumb} />
+        <PageHeroBanner title="Contact" bc={breadcrumb} />
         <section className=" pb-10 md:pb-20">
           <div className="container px-5 mx-auto h-full">
             <ContactCardGrid />
@@ -32,10 +32,10 @@ const ContactPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">
               <div className="col">
                 <p className="text-secondary-color font-semibold text-lg">
-                  Start Your Project With Us.
+                  Have a project in mind?
                 </p>
                 <h3 className="text-dark-color font-semibold text-7xl mt-4">
-                  Let’s Talk
+                  Let&lsquo;s Talk About It
                 </h3>
                 <ContactForm />
               </div>

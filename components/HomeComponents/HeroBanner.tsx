@@ -34,7 +34,7 @@ const HeroBanner = () => {
               My Resume
             </Link>
             <Link
-              href="/my-portfolio"
+              href="/portfolio"
               className="inline-flex py-2 px-8 md:py-4 md:px-10 rounded-lg md:rounded-xl shadow-md bg-dark-primary-color text-white hover:scale-110 duration-200 ease-linear border-2 border-darkbg-dark-primary-color mt-8 md:mt-[50px]"
             >
               My Portfolio

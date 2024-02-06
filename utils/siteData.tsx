@@ -24,15 +24,15 @@ export const NAV_MENU = [
   },
   {
     label: "about",
-    path: "/about-us",
+    path: "/about",
   },
   {
     label: "services",
-    path: "/our-services",
+    path: "/services",
   },
   {
     label: "portfolio",
-    path: "/our-portfolio",
+    path: "/portfolio",
   },
 
   {
@@ -41,7 +41,7 @@ export const NAV_MENU = [
   },
   {
     label: "contact",
-    path: "/contact-us",
+    path: "/contact",
   },
 ];
 
@@ -85,76 +85,78 @@ export const SIDEBAR_ADMIN_MENU = [
 ];
 
 export const WHY_CHOOSE_US = {
-  title: "Why Cool Tech Design?",
+  title: "Why Me?",
   cardsArr: [
     {
       icon: (
         <CgToolbox className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Expertise",
-      desc: "We have a team of highly skilled and experienced developers who are proficient in using the latest technologies.",
+      desc: "I have years of experience in web development and design, and I am committed to delivering high-quality work.",
     },
     {
       icon: (
         <BiCustomize className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Customization",
-      desc: "We offer personalized service and tailor our solutions to meet the unique needs of each client. ",
+      desc: "I provide custom web development and design services tailored to your specific needs and requirements.",
     },
     {
       icon: (
         <MdOutlineHeadsetMic className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Customer Support",
-      desc: "We provide ongoing support and maintenance to ensure that your website runs smoothly and stays up-to-date. ",
+      desc: "I am dedicated to providing excellent customer support and ensuring that you are satisfied with the final product.",
     },
   ],
 };
 
+// Let rewrite the below data as my portfolio services
+
 export const OurServices = {
-  title: "Our Services",
+  title: "What I Do?",
   cardsArr: [
     {
       icon: (
         <FaDesktop className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "UI/UX Design",
-      desc: "We specialize in creating exceptional UI/UX designs that elevate user engagement and provide flawless digital experiences.",
+      desc: "I provide professional UI/UX design services that focus on creating custom designs, e-commerce solutions, and responsive web design.",
     },
     {
       icon: (
         <FaLaptopCode className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Website Development",
-      desc: "We provide professional website development services that focus on creating custom designs, e-commerce solutions, and responsive web design.",
+      desc: "I offer professional website development services that cater to your needs for a robust online presence.",
     },
     {
       icon: (
         <FaWordpress className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "WordPress Development",
-      desc: "We offer comprehensive WordPress development services that cater to your needs for a robust online presence. ",
+      desc: "I specialize in WordPress development services that are tailored to your specific business needs.",
     },
     {
       icon: (
         <FaShoppingCart className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "E-Commerce Development",
-      desc: "Simplify your online brand expansion with our professional E-commerce development services.",
+      desc: "I provide e-commerce development services that focus on creating custom e-commerce solutions for your business.",
     },
     {
       icon: (
         <FaMobile className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
-      title: "App Development",
-      desc: "Transform your ideas into impactful mobile apps with our professional app development services. We create innovative solutions for iOS and Android platforms.",
+      title: "PWA Development",
+      desc: "I offer professional PWA development which is a web application that uses modern web capabilities to deliver an app-like experience to users.",
     },
     {
       icon: (
         <FaCog className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Custom CMS Development",
-      desc: "Enhance your content management efficiency with our personalized CMS solutions designed specifically for your business requirements. Simplify, structure, and succeed.",
+      desc: "I provide custom CMS development services that cater to your specific business needs.",
     },
   ],
 };
@@ -167,7 +169,7 @@ export const CONTACT_CARD = [
     title: "Contact With Phone Number",
     options: [
       {
-        path: "tel:00917889737464",
+        path: "tel:+917889737464",
         label: "+91 7889737464",
       },
     ],
@@ -179,8 +181,8 @@ export const CONTACT_CARD = [
     title: "Contact With Email",
     options: [
       {
-        path: "mailto:info.cooltechdesign@gmail.com",
-        label: "info.cooltechdesign@gmail.com",
+        path: "mailto:umarbashir601@gmail.com",
+        label: "umarbashir601@gmail.com",
       },
     ],
   },
@@ -199,7 +201,7 @@ export const CONTACT_CARD = [
 ];
 
 export const OUR_PORTFOLIO: Portfolios = {
-  title: "Our Portfolio",
+  title: "My Portfolio",
   porfolios: [
     {
       title: "FinsolutionsLLC",

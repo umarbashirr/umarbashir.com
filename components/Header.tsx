@@ -39,8 +39,15 @@ const Header = () => {
         }`}
       >
         <div className="container mx-auto px-5  flex justify-start items-center">
-          <Link href="/" className="relative w-10 h-10">
-            <Image src="/images/Logo.svg" alt="Cool Tech Design Logo" fill />
+          <Link href="/" className="flex items-center justify-start gap-2">
+            <div className="relative w-10 h-10">
+              <Image
+                src="/images/Logo.svg"
+                alt="Umar Bashir Portfolio Logo"
+                fill
+              />
+            </div>
+            <span className="text-2xl font-extrabold">Umar Bashir</span>
           </Link>
           <nav className="flex-grow justify-end hidden md:flex space-x-4 items-center">
             {NAV_MENU.map(({ label, path }, index) => {

@@ -12,13 +12,18 @@ const AboutSection = () => {
             {/* <p className="bg-secondary-color text-white px-3 py-1 text-xs rounded-2xl inline-flex">
               About Us
             </p> */}
-            <SectionTitle title="Who We Are?" isCentered={undefined} />
+            <SectionTitle title="About Me" isCentered={undefined} />
             <p className="mt-4 text-xl leading-loose font-light">
-              Cool Tech Design is an experienced web development agency that
-              focuses on enhancing businesses online presence. Our team of
-              experts in design, development, and digital marketing helps
-              businesses develop and implement effective strategies to increase
-              visibility and drive growth.
+              I am a professional software developer with over 03 years of
+              experience in web design and development. I am passionate about
+              software development and I always try to bring the best quality
+              service to my clients.{" "}
+              <span className="inline-block mt-4">
+                {" "}
+                I am a fast learner and I am always interested in learning new
+                things. I have a strong technical background and I am confident
+                in my ability to deliver high-quality work.
+              </span>
             </p>
             <Link
               href="/about-us"

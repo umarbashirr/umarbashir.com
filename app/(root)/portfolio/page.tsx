@@ -6,21 +6,21 @@ import { Portfolio } from "../../../interfaces/portfolio";
 import { OUR_PORTFOLIO } from "../../../utils/siteData";
 
 export const metadata: Metadata = {
-  title: "Our Portfolio | Cool Tech Design",
+  title: "My Portfolio | Umar Bashir | Software Developer",
   alternates: {
-    canonical: `${process.env.APP_URL}/our-portfolio`,
+    canonical: `${process.env.APP_URL}/portfolio`,
   },
 };
 
 const breadcrumb = [
   { url: `${process.env.APP_URL}`, name: "Home" },
-  { url: `${process.env.APP_URL}/our-portfolio`, name: "Our Portfolio" },
+  { url: `${process.env.APP_URL}/portfolio`, name: "Portfolio" },
 ];
 
 const PortfolioPage = () => {
   return (
     <React.Fragment>
-      <PageHeroBanner title="Our Portfolio" bc={breadcrumb} />
+      <PageHeroBanner title="My Portfolio" bc={breadcrumb} />
       <section className="pb-10 md:pb-32">
         <div className="container mx-auto px-5">
           <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-10 gap-12">

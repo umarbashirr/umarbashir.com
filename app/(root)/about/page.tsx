@@ -5,7 +5,7 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "About Me | Umar Bashir | Software Developer",
+  title: "About Me | Umar Bashir Portfolio | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/about`,
   },

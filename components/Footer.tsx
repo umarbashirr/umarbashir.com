@@ -20,10 +20,10 @@ const Footer = () => {
               <h2 className="capitalize text-2xl">About Me</h2>
             </div>
             <p className="mt-4 leading-[32px]">
-              Hi, I'm Umar Bashir, a software developer from India. I specialize
-              in building high-quality, fully responsive, and user-friendly
-              websites and web applications using modern web tools &
-              technologies.
+              Hi, I&rsquo;m Umar Bashir, a software developer from India. I
+              specialize in building high-quality, fully responsive, and
+              user-friendly websites and web applications using modern web tools
+              & technologies.
             </p>
           </div>
           {/* Second Column */}

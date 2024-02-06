@@ -1,6 +1,6 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-const Container = ({ children }) => {
+const Container = ({ children }: { children: ReactNode }) => {
   return <div className="container mx-auto px-5  w-full">{children}</div>;
 };
 

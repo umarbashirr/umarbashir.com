@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import ContactForm from "./components/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact | Umar Bashir Rather | Software Developer",
+  title: "Contact | Umar Bashir Portfolio | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/contact`,
   },

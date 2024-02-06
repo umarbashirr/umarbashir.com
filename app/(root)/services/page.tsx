@@ -4,7 +4,7 @@ import React from "react";
 import ServicesBlock from "./components/services-block";
 
 export const metadata: Metadata = {
-  title: "Services | Umar Bashir | Software Developer",
+  title: "Services | Umar Bashir Portfolio | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/services`,
   },

@@ -1,33 +1,34 @@
 import { Analytics } from "@vercel/analytics/react";
 
-import "./globals.css";
-import "../styles/particles.css";
-import "../styles/custom.css";
-import { Footer, Header } from "../components";
-import { Metadata } from "next";
-import GoogleAnalytics from "./GoogleAnalytics";
-import Facebook from "./Facebook";
-import { Suspense } from "react";
-import Loading from "./loading";
+import { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
+import { Footer, Header } from "../components";
+import "../styles/custom.css";
+import "../styles/particles.css";
+import Facebook from "./Facebook";
+import GoogleAnalytics from "./GoogleAnalytics";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Home | Cool Tech Design | Website Development Agency",
+  title: "Home | Umar Bashir Portfolio | Software Developer",
   description:
-    "Cool Tech Design is a professional web development agency offering customized design and development solutions for businesses of all sizes. ",
+    "I am a software developer based in Srinagar, India. I specialize in building web applications and websites.",
   icons: {
     icon: "/favicon.ico",
   },
   keywords:
-    "cool tech design, digital web agency, website design, website development, web development, technology, digital marketing, SEO, innovation, modern, cutting-edge, creative, unique, online solutions",
-  authors: [{ name: "Umar Bashir Rather", url: "https://cooltechdesign.com" }],
+    "software developer, web developer, web designer, react developer, nextjs developer, jamstack developer, full stack developer, front end developer, back end developer, web developer in srinagar, web developer in india, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir",
+  authors: [{ name: "Umar Bashir Rather", url: "https://umarbashir.com" }],
   robots: { index: true, follow: true },
   viewport: { width: "device-width", initialScale: 1 },
-  applicationName: "Cool Tech Design",
+  applicationName: "Umar Bashir Portfolio",
   alternates: {
-    canonical: `https://cooltechdesign.com`,
+    canonical: `https://umarbashir.com`,
   },
   manifest: "/manifest.json",
+};
+
+export const viewport: Viewport = {
   themeColor: "#ffffff",
 };
 
@@ -46,7 +47,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleAnalytics GTM_ID={process.env.GTM_ID} />
+      <GoogleAnalytics GTM_ID={process.env.GTM_ID!} />
       <body>
         <Analytics />
         <Facebook />

@@ -6,7 +6,13 @@ import { NAV_MENU } from "../utils/siteData";
 import { usePathname, useRouter } from "next/navigation";
 import { FaTimes } from "react-icons/fa";
 
-const Sidebar = ({ isOpen, setIsOpen }) => {
+const Sidebar = ({
+  isOpen,
+  setIsOpen,
+}: {
+  isOpen: boolean;
+  setIsOpen: (v: boolean) => void;
+}) => {
   const pathName = usePathname();
   const router = useRouter();
   function changeRoute(path: string) {

@@ -6,7 +6,7 @@ import { Portfolio } from "../../../interfaces/portfolio";
 import { OUR_PORTFOLIO } from "../../../utils/siteData";
 
 export const metadata: Metadata = {
-  title: "My Portfolio | Umar Bashir | Software Developer",
+  title: "My Portfolio | Umar Bashir Portfolio | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/portfolio`,
   },

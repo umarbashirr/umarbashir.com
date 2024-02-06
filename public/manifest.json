@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Cool Tech Design",
-  "short_name": "Cool Tech Design",
-  "description": "Cool Tech Design is a website design and development agency. We also provide other digital solutions such ecommerce development, digital marketing, SEO and CMS development.",
+  "name": "Umar Bashir Portfolio",
+  "short_name": "Umar Bashir",
+  "description": "Portfolio of Umar Bashir - Software Developer",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

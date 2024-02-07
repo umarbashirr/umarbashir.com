@@ -26,7 +26,7 @@ const AboutSection = () => {
               </span>
             </p>
             <Link
-              href="/about-us"
+              href="/about"
               className="mt-4 inline-flex px-6 py-2 bg-dark-primary-color text-white rounded-md shadow-md hover:bg-dark-primary-color duration-200 ease-in-out"
             >
               Read more

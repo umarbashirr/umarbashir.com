@@ -8,7 +8,7 @@ const Banner = () => {
         Have a project in mind? Let&rsquo;s talk about it.
       </h2>
       <Link
-        href="/contact-us"
+        href="/contact"
         className="bg-dark-primary-color border-2 border-transparent hover:bg-transparent hover:border-dark-primary-color hover:text-dark-primary-color px-8 py-4 md:px-16 text-white font-semibold rounded-md shadow-md inline-flex duration-200 ease-in-out"
         aria-labelledby="Get in touch button"
       >

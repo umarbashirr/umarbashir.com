@@ -10,7 +10,7 @@ const CTABanner = () => {
             Looking for a website for <br /> your business?
           </h2>
           <Link
-            href="/contact-us"
+            href="/contact"
             aria-labelledby="Get Quote"
             className="bg-dark-primary-color text-white py-2 px-6 md:py-4 md:px-12 text-lg rounded-md hover:bg-dark-primary-color duration-200 ease-out"
           >

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const breadcrumb = [
   { url: `${process.env.APP_URL}`, name: "Home" },
-  { url: `${process.env.APP_URL}/contact-me`, name: "Contact" },
+  { url: `${process.env.APP_URL}/contact`, name: "Contact" },
 ];
 
 const ContactPage = () => {

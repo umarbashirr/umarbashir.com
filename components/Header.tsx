@@ -74,6 +74,7 @@ const Header = () => {
           </nav>
           <Link
             href="/contact"
+            aria-label="Hire Me Now Button"
             className="bg-dark-primary-color hover:scale-105 duration-200 ease-linear ml-4 text-white font-semibold text-base px-4 py-2 rounded-md shadow-md"
           >
             Hire Me Now

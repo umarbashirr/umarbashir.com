@@ -8,7 +8,6 @@ import {
 } from "../../components/HomeComponents";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import SectionWithMargin from "../../components/SectionWithMargin";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Portfolio | Software Developer",
@@ -43,13 +42,11 @@ function addPersonJsonLd() {
 export default function Home() {
   return (
     <>
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={addPersonJsonLd()}
-          key="person-jsonld"
-        />
-      </Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addPersonJsonLd()}
+        key="person-jsonld"
+      />
       <HeroBanner />
       <WhyUsSection />
       <AboutSection />

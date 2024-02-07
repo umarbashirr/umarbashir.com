@@ -7,6 +7,8 @@ import "../styles/custom.css";
 import "../styles/particles.css";
 import GoogleAnalytics from "./GoogleAnalytics";
 import "./globals.css";
+import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Portfolio | Software Developer",
@@ -23,6 +25,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `https://www.umarbashir.com`,
   },
+  metadataBase: new URL("https://www.umarbashir.com"),
   openGraph: {
     type: "website",
     url: "https://www.umarbashir.com",
@@ -86,6 +89,15 @@ export default function RootLayout({
           </div> */}
           <main className="flex-grow">{children}</main>
           <Footer />
+          <div className="fixed bottom-6 right-6 p-2 cursor-pointer bg-dark-primary-color rounded-3xl">
+            <Link
+              href="https://wa.me/+917889737464?text=Hello%20there!%20Welcome%20to%20my%20portfolio.%20Please%20let%20me%20know%20how%20I%20can%20help%20you."
+              target="_blank"
+              className=" text-white"
+            >
+              <FaWhatsapp className="w-8 h-8" />
+            </Link>
+          </div>
         </div>
       </body>
     </html>

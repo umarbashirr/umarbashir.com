@@ -13,7 +13,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Portfolio | Software Developer",
   description:
-    "I am a software developer based in Pahalgam, India. I have over 4 years of experience working as a software developer, and I specialize in building web applications and websites. I mainly use frameworks like ReactJS, NextJS, and Angular.",
+    "Software developer with over 4 years of experience building web applications and websites using modern web tools & technologies like ReactJS, NextJS, and Angular.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -26,22 +26,7 @@ export const metadata: Metadata = {
     canonical: `https://www.umarbashir.com`,
   },
   metadataBase: new URL("https://www.umarbashir.com"),
-  openGraph: {
-    type: "website",
-    url: "https://www.umarbashir.com",
-    title: "Umar Bashir Portfolio",
-    description:
-      "I am a software developer based in Pahalgam, India. I have over 4 years of experience working as a software developer, and I specialize in building web applications and websites. I mainly use frameworks like ReactJS, NextJS, and Angular.",
-    images: [
-      {
-        url: "/images/og-image.png",
-        width: 800,
-        height: 600,
-        alt: "Umar Bashir Portfolio",
-      },
-    ],
-    siteName: "Umar Bashir Portfolio",
-  },
+
   manifest: "/manifest.json",
 };
 

@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${process.env.APP_URL}/terms-and-conditions`,
   },
+  openGraph: {
+    type: "website",
+    url: `${process.env.APP_URL}/terms-and-conditions`,
+    title: "Terms and Conditions | Umar Bashir Portfolio | Software Developer",
+    description:
+      "By engaging in any business relationship with Umar Bashir Portfolio, including but not limited to the use of our services, you acknowledge that you have read, understood, and agreed to abide by these Terms and Conditions outlined below. These terms constitute a legally binding agreement between you (the &ldquo;Client&rdquo;) and Cool Tech Design.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Umar Bashir Portfolio",
+      },
+    ],
+    siteName: "Umar Bashir Portfolio",
+  },
 };
 
 /// Data passed could be something like:

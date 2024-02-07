@@ -8,6 +8,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${process.env.APP_URL}/privacy-policy`,
   },
+  openGraph: {
+    type: "website",
+    url: `${process.env.APP_URL}/privacy-policy`,
+    title: "Privacy Policy | Umar Bashir Portfolio | Software Developer",
+    description:
+      "This Privacy Policy outlines how Umar Bashir Portfolio (&lsquo;we&rsquo; or &lsquo;us&rsquo;) collects, uses, and protects your personal information when you use my services or visit my website. By using my services and visiting my website, you agree to the terms of this Privacy Policy.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Umar Bashir Portfolio",
+      },
+    ],
+    siteName: "Umar Bashir Portfolio",
+  },
 };
 
 const breadcrumb = [

@@ -10,6 +10,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${process.env.APP_URL}/portfolio`,
   },
+  openGraph: {
+    type: "website",
+    url: `${process.env.APP_URL}/portfolio`,
+    title: "My Portfolio | Umar Bashir Portfolio | Software Developer",
+    description:
+      "I have worked on a wide range of projects including web development, web design, and digital marketing. I specialize in building web applications and websites using modern web tools & technologies like ReactJS, NextJS, and Angular. I also offer digital marketing services to help businesses grow their online presence and reach more customers.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Umar Bashir Portfolio",
+      },
+    ],
+    siteName: "Umar Bashir Portfolio",
+  },
 };
 
 const breadcrumb = [

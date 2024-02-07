@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${process.env.APP_URL}/blogs`,
   },
+  openGraph: {
+    type: "website",
+    url: `${process.env.APP_URL}/blogs`,
+    title: "Blogs | Umar Bashir Portfolio | Software Developer",
+    description:
+      " I write blogs on a wide range of topics including web development, web design, and digital marketing. I specialize in building web applications and websites using modern web tools & technologies like ReactJS, NextJS, and Angular.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Umar Bashir Portfolio",
+      },
+    ],
+    siteName: "Umar Bashir Portfolio",
+  },
 };
 
 const breadcrumb = [

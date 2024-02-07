@@ -14,6 +14,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${process.env.APP_URL}`,
   },
+  openGraph: {
+    type: "website",
+    url: "https://www.umarbashir.com",
+    title: "Umar Bashir Portfolio",
+    description:
+      "I am a software developer based in Pahalgam, India. I have over 4 years of experience working as a software developer, and I specialize in building web applications and websites. I mainly use frameworks like ReactJS, NextJS, and Angular.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Umar Bashir Portfolio",
+      },
+    ],
+    siteName: "Umar Bashir Portfolio",
+  },
 };
 
 function addPersonJsonLd() {

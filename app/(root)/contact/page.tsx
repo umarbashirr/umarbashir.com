@@ -10,6 +10,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${process.env.APP_URL}/contact`,
   },
+  openGraph: {
+    type: "website",
+    url: `${process.env.APP_URL}/contact`,
+    title: "Contact | Umar Bashir Portfolio | Software Developer",
+    description:
+      "Get in touch with me for any queries, project discussions, or just to say hello. I am always open to new opportunities and collaborations.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Umar Bashir Portfolio",
+      },
+    ],
+    siteName: "Umar Bashir Portfolio",
+  },
 };
 
 const breadcrumb = [

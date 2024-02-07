@@ -25,6 +25,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `https://www.umarbashir.com`,
   },
+  openGraph: {
+    type: "website",
+    url: "https://www.umarbashir.com",
+    title: "Umar Bashir Portfolio",
+    description:
+      "I am a software developer based in Srinagar, India. I specialize in building web applications and websites.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Umar Bashir Portfolio",
+      },
+    ],
+    siteName: "Umar Bashir Portfolio",
+  },
   manifest: "/manifest.json",
 };
 

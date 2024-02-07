@@ -1,24 +1,22 @@
 import { Analytics } from "@vercel/analytics/react";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { Footer, Header } from "../components";
 import "../styles/custom.css";
 import "../styles/particles.css";
-import Facebook from "./Facebook";
 import GoogleAnalytics from "./GoogleAnalytics";
 import "./globals.css";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Portfolio | Software Developer",
   description:
-    "I am a software developer based in Srinagar, India. I specialize in building web applications and websites.",
+    "I am a software developer based in Pahalgam, India. I have over 4 years of experience working as a software developer, and I specialize in building web applications and websites. I mainly use frameworks like ReactJS, NextJS, and Angular.",
   icons: {
     icon: "/favicon.ico",
   },
   keywords:
-    "software developer, web developer, web designer, react developer, nextjs developer, jamstack developer, full stack developer, front end developer, back end developer, web developer in srinagar, web developer in india, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir",
+    "Umar Bashir, umarbashirr, umar bashir rather, omer bashir, omar bashir, software developer, web developer, web designer, react developer, nextjs developer, jamstack developer, full stack developer, front end developer, back end developer, web developer in srinagar, web developer in india, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in pahalgam, web developer in anantnag, web developer in awantipora, web developer in pulwama, web developer in shopian, web developer in kulgam, web developer in budgam, web developer in baramulla, web developer in bandipora, web developer in kupwara, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir, web developer in srinagar, web developer in kashmir, web developer in jammu and kashmir",
   authors: [{ name: "Umar Bashir Rather", url: "https://www.umarbashir.com" }],
   robots: { index: true, follow: true },
   applicationName: "Umar Bashir Portfolio",
@@ -30,7 +28,7 @@ export const metadata: Metadata = {
     url: "https://www.umarbashir.com",
     title: "Umar Bashir Portfolio",
     description:
-      "I am a software developer based in Srinagar, India. I specialize in building web applications and websites.",
+      "I am a software developer based in Pahalgam, India. I have over 4 years of experience working as a software developer, and I specialize in building web applications and websites. I mainly use frameworks like ReactJS, NextJS, and Angular.",
     images: [
       {
         url: "/images/og-image.png",
@@ -69,7 +67,6 @@ export default function RootLayout({
       <body>
         <Analytics />
         <SpeedInsights />
-        <Facebook />
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${process.env.GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,

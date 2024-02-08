@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: `${process.env.APP_URL}/privacy-policy`,
     title: "Privacy Policy | Umar Bashir Portfolio | Software Developer",
     description:
-      "This Privacy Policy outlines how Umar Bashir Portfolio (&lsquo;we&rsquo; or &lsquo;us&rsquo;) collects, uses, and protects your personal information when you use my services or visit my website. By using my services and visiting my website, you agree to the terms of this Privacy Policy.",
+      "Provides outlines how Umar Bashir Portfolio (&lsquo;we&rsquo; or &lsquo;us&rsquo;) collects, uses, and protects your information.",
     images: [
       {
         url: "/images/og-image.png",

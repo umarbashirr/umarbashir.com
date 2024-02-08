@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: "https://www.umarbashir.com",
     title: "Umar Bashir Portfolio",
     description:
-      "I am a software developer based in Pahalgam, India. I have over 4 years of experience working as a software developer, and I specialize in building web applications and websites. I mainly use frameworks like ReactJS, NextJS, and Angular.",
+      "Software developer with over 4 years of experience building web applications and websites using modern technologies.",
     images: [
       {
         url: "/images/og-image.png",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: `${process.env.APP_URL}/terms-and-conditions`,
     title: "Terms and Conditions | Umar Bashir Portfolio | Software Developer",
     description:
-      "By engaging in any business relationship with Umar Bashir Portfolio, including but not limited to the use of our services, you acknowledge that you have read, understood, and agreed to abide by these Terms and Conditions outlined below. These terms constitute a legally binding agreement between you (the &ldquo;Client&rdquo;) and Cool Tech Design.",
+      "By using Umar Bashir Portfolio services, you agree to these Terms. Read, understand, and abide by them in our business relationship.",
     images: [
       {
         url: "/images/og-image.png",
@@ -45,21 +45,21 @@ const TermsAndConditions = () => {
       <div id="terms_section" className="mb-10 lg:mb-20 container mx-auto px-5">
         <div>
           <h2 className="text-3xl font-bold mb-5">
-            Umar Bashir Portfolio - Terms and Conditions
+            Umar Bashir - Terms and Conditions
           </h2>
           <h3 className={title}>1. Acceptance of Terms</h3>
           <p className={desc}>
-            By engaging in any business relationship with Umar Bashir Portfolio,
+            By engaging in any business relationship with Umar Bashir Rather,
             including but not limited to the use of our services, you
             acknowledge that you have read, understood, and agreed to abide by
             these Terms and Conditions outlined below. These terms constitute a
             legally binding agreement between you (the &ldquo;Client&rdquo;) and
-            Cool Tech Design.
+            Umar Bashir Rather.
           </p>
           <h3 className={title}>2. Services Offered</h3>
           <p className={desc}>
-            Umar Bashir Portfolio specializes in web development, design, and
-            digital marketing services. We offer a range of solutions to enhance
+            Umar Bashir specializes in web development, design, and digital
+            marketing services. We offer a range of solutions to enhance
             businesses&rsquo; online presence and drive growth. Our services
             include website design, development, search engine optimization
             (SEO), social media marketing, and more.
@@ -71,8 +71,8 @@ const TermsAndConditions = () => {
             project.
           </p>{" "}
           <p className={desc}>
-            b. The Client shall grant Umar Bashir Portfolio access to any
-            relevant systems, platforms, or accounts necessary for project
+            b. The Client shall grant Umar Bashir access to any relevant
+            systems, platforms, or accounts necessary for project
             implementation.
           </p>
           <p className={desc}>
@@ -83,9 +83,9 @@ const TermsAndConditions = () => {
           </p>
           <h3 className={title}>4. Project Timeline</h3>
           <p className={desc}>
-            a. Umar Bashir Portfolio will provide an estimated project timeline
-            based on the scope of work. However, unforeseen circumstances might
-            cause delays, and the timeline is subject to change.
+            a. Umar Bashir will provide an estimated project timeline based on
+            the scope of work. However, unforeseen circumstances might cause
+            delays, and the timeline is subject to change.
           </p>
           <p className={desc}>
             b. The Client&rsquo;s prompt feedback and approvals are essential
@@ -94,8 +94,8 @@ const TermsAndConditions = () => {
           </p>
           <h3 className={title}>5. Payment Terms</h3>
           <p className={desc}>
-            a. The Client agrees to pay Umar Bashir Portfolio the agreed-upon
-            fees for the provided services as outlined in the project proposal.
+            a. The Client agrees to pay Umar Bashir the agreed-upon fees for the
+            provided services as outlined in the project proposal.
           </p>
           <p className={desc}>
             {" "}
@@ -114,7 +114,7 @@ const TermsAndConditions = () => {
             the project shall remain the property of the Client.
           </p>{" "}
           <p className={desc}>
-            b. All new intellectual property developed by Umar Bashir Portfolio
+            b. All new intellectual property developed by Umar Bashir Rather
             during the project, including but not limited to design elements,
             code, and creative materials, shall be the property of the Client
             upon full payment and project completion.
@@ -128,12 +128,12 @@ const TermsAndConditions = () => {
           <h3 className={title}>8. Termination</h3>
           <p className={desc}>
             Either party may terminate the project by providing written notice.
-            The Client agrees to compensate Umar Bashir Portfolio for any work
+            The Client agrees to compensate Umar Bashir Rather for any work
             completed up to the termination date.
           </p>
           <h3 className={title}>9. Limitation of Liability</h3>
           <p className={desc}>
-            Umar Bashir Portfolio will not be liable for any direct, indirect,
+            Umar Bashir Rather will not be liable for any direct, indirect,
             incidental, consequential, or special damages arising out of or in
             connection with the services provided, including but not limited to
             loss of profits, data, or business opportunities.
@@ -141,14 +141,14 @@ const TermsAndConditions = () => {
           <h3 className={title}>10. Governing Law</h3>
           <p className={desc}>
             These Terms and Conditions shall be governed by and construed in
-            accordance with the laws of the jurisdiction in which Cool Tech
-            Design is registered. By engaging with Umar Bashir Portfolio&rsquo;s
+            accordance with the laws of the jurisdiction in which Umar Bashir
+            Rather is registered. By engaging with Umar Bashir Rather&rsquo;s
             services, you agree to these Terms and Conditions. These terms may
             be updated from time to time, and the most recent version will be
             posted on our website.
           </p>{" "}
           <p className={desc}>
-            <strong>*Last Updated: August 07, 2024 00:46</strong>
+            <strong>*Last Updated: Feb 08, 2024 12:37</strong>
           </p>
         </div>
       </div>

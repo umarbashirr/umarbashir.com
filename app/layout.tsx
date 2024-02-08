@@ -13,7 +13,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Portfolio | Software Developer",
   description:
-    "Software developer with over 4 years of experience building web applications and websites using modern web tools & technologies like ReactJS, NextJS, and Angular.",
+    "Software developer with over 4 years of experience building web applications and websites using modern technologies.",
   icons: {
     icon: "/favicon.ico",
   },

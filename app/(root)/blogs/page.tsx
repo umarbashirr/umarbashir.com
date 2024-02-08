@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: `${process.env.APP_URL}/blogs`,
     title: "Blogs | Umar Bashir Portfolio | Software Developer",
     description:
-      " I write blogs on a wide range of topics including web development, web design, and digital marketing. I specialize in building web applications and websites using modern web tools & technologies like ReactJS, NextJS, and Angular.",
+      " I write blogs on a wide range of topics including web design, development and digital marketing.",
     images: [
       {
         url: "/images/og-image.png",

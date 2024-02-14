@@ -204,6 +204,16 @@ export const OUR_PORTFOLIO: Portfolios = {
   title: "My Portfolio",
   porfolios: [
     {
+      title: "Profit and Co.",
+      url: "https://profit-and-co.vercel.app",
+      image: "/images/portfolio/profit-and-co.png",
+    },
+    {
+      title: "Private Fleet Services",
+      url: "https://privatefleetservices.com",
+      image: "/images/portfolio/pfs.png",
+    },
+    {
       title: "FinsolutionsLLC",
       url: "https://finsolutionsllc.com",
       image: "/images/portfolio/finsolutions.png",

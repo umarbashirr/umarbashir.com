@@ -3,25 +3,27 @@ import { PageHeroBanner } from "../../../components";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Blogs | Umar Bashir Rather | Software Developer",
+  title:
+    "Blogs | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/blogs`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/blogs`,
-    title: "Blogs | Umar Bashir Portfolio | Software Developer",
+    title:
+      "Blogs | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
     description:
       " I write blogs on a wide range of topics including web design, development and digital marketing.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "https://www.umarbashir.com/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   },
 };
 

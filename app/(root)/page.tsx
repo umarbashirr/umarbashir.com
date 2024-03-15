@@ -10,25 +10,26 @@ import Portfolio from "../../components/Portfolio/Portfolio";
 import SectionWithMargin from "../../components/SectionWithMargin";
 
 export const metadata: Metadata = {
-  title: "Home | Umar Bashir Portfolio | Software Developer",
+  title:
+    "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}`,
   },
   openGraph: {
     type: "website",
     url: "https://www.umarbashir.com",
-    title: "Umar Bashir Portfolio",
+    title: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
-      "Software developer with over 4 years of experience building web applications and websites using modern technologies.",
+      "Professional web design and development services by Umar Bashir Rather, a freelance web developer with over 5 years of experience. Specializing in custom website development, e-commerce websites, SEO services, and web app development. Based in Pahalgam, Jammu and Kashmir, India.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "https://www.umarbashir.com/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   },
 };
 

@@ -6,25 +6,27 @@ import { Portfolio } from "../../../interfaces/portfolio";
 import { OUR_PORTFOLIO } from "../../../utils/siteData";
 
 export const metadata: Metadata = {
-  title: "My Portfolio | Umar Bashir Portfolio | Software Developer",
+  title:
+    "My Portfolio | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/portfolio`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/portfolio`,
-    title: "My Portfolio | Umar Bashir Portfolio | Software Developer",
+    title:
+      "My Portfolio | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
     description:
       "Professional in web development, design, and digital marketing. Specializing in ReactJS, NextJS, Angular for impactful online solutions.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "https://www.umarbashir.com/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   },
 };
 

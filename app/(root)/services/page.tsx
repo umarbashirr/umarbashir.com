@@ -4,25 +4,27 @@ import React from "react";
 import ServicesBlock from "./components/services-block";
 
 export const metadata: Metadata = {
-  title: "Services | Umar Bashir Portfolio | Software Developer",
+  title:
+    "Services | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/services`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/services`,
-    title: "Services | Umar Bashir Portfolio | Software Developer",
+    title:
+      "Services | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
     description:
-      "Web design, development, and digital marketing expert. Specializing in NextJS, Angular. Improve your online presence to reach new customers.",
+      "Professional web design and development services by Umar Bashir Rather, a freelance web developer with over 5 years of experience. Specializing in custom website development, e-commerce websites, SEO services, and web app development. Based in Pahalgam, Jammu and Kashmir, India.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "https://www.umarbashir.com/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   },
 };
 

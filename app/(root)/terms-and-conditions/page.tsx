@@ -3,25 +3,27 @@ import React from "react";
 import { PageHeroBanner } from "../../../components";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | Umar Bashir Portfolio | Software Developer",
+  title:
+    "Terms and Conditions | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/terms-and-conditions`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/terms-and-conditions`,
-    title: "Terms and Conditions | Umar Bashir Portfolio | Software Developer",
+    title:
+      "Terms and Conditions | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
     description:
-      "By using Umar Bashir Portfolio services, you agree to these Terms. Read, understand, and abide by them in our business relationship.",
+      "By using Umar Bashir Rather - Freelance Web Developer & SEO Specialist services, you agree to these Terms. Read, understand, and abide by them in our business relationship.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "https://www.umarbashir.com/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   },
 };
 

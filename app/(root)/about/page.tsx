@@ -59,7 +59,7 @@ const AboutPage = () => {
                 websites), on-page SEO, and custom web app development.
               </p>
               <p className="text-lg text-dark-color leading-loose ">
-                A With a strong technical background and a commitment to
+                With a strong technical background and a commitment to
                 excellence, I am dedicated to delivering high quality work that
                 exceeds expectations. Partner with me to bring your online
                 presence to the next level.

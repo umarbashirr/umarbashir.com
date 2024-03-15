@@ -17,17 +17,13 @@ const AboutSection = () => {
               Hello, I am Umar Bashir Rather, a professional software developer
               with over 5 years of experience specializing in website design and
               development. I am passionate about providing high quality services
-              to my clients and staying ahead of industry trends. Based in
-              Pahalgam, Jammu and Kashmir, India, I provide a variety of
-              services including website design, website development (including
-              hotel, travel, business, and e-commerce websites), on-page SEO,
-              and custom web app development.
+              to my clients and staying ahead of industry trends.
               <span className="inline-block mt-4">
                 {" "}
-                A With a strong technical background and a commitment to
-                excellence, I am dedicated to delivering high quality work that
-                exceeds expectations. Partner with me to bring your online
-                presence to the next level.
+                Based in Pahalgam, Jammu and Kashmir, India, I provide a variety
+                of services including website design, website development
+                (including hotel, travel, business, and e-commerce websites),
+                on-page SEO, and custom web app development.
               </span>
             </p>
             <Link

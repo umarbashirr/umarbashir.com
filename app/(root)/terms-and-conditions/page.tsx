@@ -4,7 +4,7 @@ import { PageHeroBanner } from "../../../components";
 
 export const metadata: Metadata = {
   title:
-    "Terms and Conditions | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+    "Terms and Conditions | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/terms-and-conditions`,
   },
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     url: `${process.env.APP_URL}/terms-and-conditions`,
     title:
-      "Terms and Conditions | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+      "Terms and Conditions | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
       "By using Umar Bashir Rather - Freelance Web Developer & SEO Specialist services, you agree to these Terms. Read, understand, and abide by them in our business relationship.",
     images: [

@@ -8,10 +8,12 @@ import {
 } from "../../components/HomeComponents";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import SectionWithMargin from "../../components/SectionWithMargin";
+import { SectionTitle } from "@/components";
+import { OUR_PORTFOLIO } from "@/utils/siteData";
+import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
 
 export const metadata: Metadata = {
-  title:
-    "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+  title: "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}`,
   },
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
     url: "https://www.umarbashir.com",
     title: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
-      "Professional web design and development services by Umar Bashir Rather, a freelance web developer with over 5 years of experience. Specializing in custom website development, e-commerce websites, SEO services, and web app development. Based in Pahalgam, Jammu and Kashmir, India.",
+      "Umar Bashir Rather: professional web design & development services with over 5 years of experience. Specializing in custom websites, e-commerce, SEO & web app development. Based in Pahalgam, J&K, India.",
     images: [
       {
         url: "https://www.umarbashir.com/images/og-image.png",
@@ -70,7 +72,18 @@ export default function Home() {
       <Banner />
       <ServicesBlock />
       <SectionWithMargin>
-        <Portfolio />
+        <div>
+          <SectionTitle title={OUR_PORTFOLIO.title} isCentered={true} />
+          <div className="container mx-auto px-5">
+            <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  mt-12 gap-12">
+              {OUR_PORTFOLIO.porfolios
+                ?.slice(0, 3)
+                ?.map((portfolio: Portfolio, index: number) => {
+                  return <SinglePortfolio key={index} portfolio={portfolio} />;
+                })}
+            </div>
+          </div>
+        </div>
       </SectionWithMargin>
     </>
   );

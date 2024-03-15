@@ -5,7 +5,7 @@ import ServicesBlock from "./components/services-block";
 
 export const metadata: Metadata = {
   title:
-    "Services | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+    "Services | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/services`,
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     url: `${process.env.APP_URL}/services`,
     title:
-      "Services | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+      "Services | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
       "Professional web design and development services by Umar Bashir Rather, a freelance web developer with over 5 years of experience. Specializing in custom website development, e-commerce websites, SEO services, and web app development. Based in Pahalgam, Jammu and Kashmir, India.",
     images: [

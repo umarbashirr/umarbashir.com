@@ -7,7 +7,7 @@ import { OUR_PORTFOLIO } from "../../../utils/siteData";
 
 export const metadata: Metadata = {
   title:
-    "My Portfolio | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+    "My Portfolio | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/portfolio`,
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     url: `${process.env.APP_URL}/portfolio`,
     title:
-      "My Portfolio | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+      "My Portfolio | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
       "Professional in web development, design, and digital marketing. Specializing in ReactJS, NextJS, Angular for impactful online solutions.",
     images: [

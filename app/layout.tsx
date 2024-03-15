@@ -11,9 +11,9 @@ import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Home | Umar Bashir Portfolio | Software Developer",
+  title: "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   description:
-    "Professional web design and development services by Umar Bashir Rather, a freelance web developer with over 5 years of experience. Specializing in custom website development, e-commerce websites, SEO services, and web app development. Based in Pahalgam, Jammu and Kashmir, India.",
+    "Umar Bashir Rather: professional web design & development services with over 5 years of experience. Specializing in custom websites, e-commerce, SEO & web app development. Based in Pahalgam, J&K, India.",
   icons: {
     icon: "/favicon.ico",
   },

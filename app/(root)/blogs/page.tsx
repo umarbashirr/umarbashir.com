@@ -4,7 +4,7 @@ import React from "react";
 
 export const metadata: Metadata = {
   title:
-    "Blogs | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+    "Blogs | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/blogs`,
   },
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     url: `${process.env.APP_URL}/blogs`,
     title:
-      "Blogs | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+      "Blogs | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
       " I write blogs on a wide range of topics including web design, development and digital marketing.",
     images: [

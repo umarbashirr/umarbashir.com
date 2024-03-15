@@ -6,7 +6,7 @@ import React from "react";
 
 export const metadata: Metadata = {
   title:
-    "About Me | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+    "About Me | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/about`,
   },
@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     type: "website",
     url: `${process.env.APP_URL}/about`,
     title:
-      "About Me | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+      "About Me | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
-      "Professional web design and development services by Umar Bashir Rather, a freelance web developer with over 5 years of experience. Specializing in custom website development, e-commerce websites, SEO services, and web app development. Based in Pahalgam, Jammu and Kashmir, India.",
+      "Umar Bashir Rather: professional web design & development services with over 5 years of experience. Specializing in custom websites, e-commerce, SEO & web app development. Based in Pahalgam, J&K, India.",
     images: [
       {
         url: "https://www.umarbashir.com/images/og-image.png",

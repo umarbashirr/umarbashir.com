@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Privacy Policy | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+    "Privacy Policy | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/privacy-policy`,
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     url: `${process.env.APP_URL}/privacy-policy`,
     title:
-      "Privacy Policy | Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+      "Privacy Policy | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
       "Provides outlines how Umar Bashir Rather - Freelance Web Developer & SEO Specialist (&lsquo;we&rsquo; or &lsquo;us&rsquo;) collects, uses, and protects your information.",
     images: [

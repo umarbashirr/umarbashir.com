@@ -7,7 +7,7 @@ import ContactForm from "./components/contact-form";
 
 export const metadata: Metadata = {
   title:
-    "Contact |Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+    "Contact |Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/contact`,
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     url: `${process.env.APP_URL}/contact`,
     title:
-      "Contact |Umar Bashir Rather - Freelance Web Developer & SEO Specialist | Software Developer",
+      "Contact |Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
       "Get in touch with me for any queries, project discussions, or just to say hello. I am always open to new opportunities and collaborations.",
     images: [

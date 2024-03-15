@@ -117,9 +117,9 @@ const PrivacyPolicy = () => {
             personal information or this Privacy Policy, please contact me at{" "}
             <Link
               className="text-indigo-500 underline font-semibold"
-              href="mailto:umarbashir601@gmail.com"
+              href="mailto:contact@umarbashir.com"
             >
-              umarbashir601@gmail.com
+              contact@umarbashir.com
             </Link>
             .
           </p>

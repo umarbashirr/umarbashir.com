@@ -31,10 +31,10 @@ const Footer = () => {
             <h2 className="capitalize text-2xl">Reach To Me</h2>
             <div className="flex flex-col gap-y-4 mt-4 md:mt-6">
               <Link
-                href="mailto:umarbashir601@gmail.com"
+                href="mailto:contact@umarbashir.com"
                 className="flex items-center justify-start space-x-2 hover:text-secondary-color"
               >
-                <FaEnvelope /> <span>umarbashir601@gmail.com</span>
+                <FaEnvelope /> <span>contact@umarbashir.com</span>
               </Link>
               <Link
                 href="tel:+917889737464"

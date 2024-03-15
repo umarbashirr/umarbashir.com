@@ -12,16 +12,16 @@ export async function POST(req: Request) {
     port: "465",
     secure: "true",
     auth: {
-      user: "info.cooltechdesign@gmail.com",
-      pass: "zvgbeknutwtvttqh",
+      user: "contact@umarbashir.com",
+      pass: "ustjjjcnancdajkw",
     },
   });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: request.email, // sender address
-    to: "info.cooltechdesign@gmail.com", // list of receivers
-    subject: "Message From Cool Tech Design", // Subject line
+    to: "contact@umarbashir.com", // list of receivers
+    subject: "Message From Portfolio Website", // Subject line
     text: request.message, // plain text body
     html: `
     <p>Name: ${request.name}</p>

@@ -50,7 +50,7 @@ function addPersonJsonLd() {
         "@type": "Organization",
         name: "Self-Employed",
       },
-      email: "mailto:umarbashir601@gmail.com",
+      email: "mailto:contact@umarbashir.com",
     }`,
   };
 }

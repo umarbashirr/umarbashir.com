@@ -181,8 +181,8 @@ export const CONTACT_CARD = [
     title: "Contact With Email",
     options: [
       {
-        path: "mailto:umarbashir601@gmail.com",
-        label: "umarbashir601@gmail.com",
+        path: "mailto:contact@umarbashir.com",
+        label: "contact@umarbashir.com",
       },
     ],
   },

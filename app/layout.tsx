@@ -13,7 +13,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   description:
-    "Umar Bashir Rather: professional web design & development services with over 5 years of experience. Specializing in custom websites, e-commerce, SEO & web app development. Based in Pahalgam, J&K, India.",
+    "Professional Web Developer with over 5 years of experience specializing in custom websites, e-commerce, SEO & web app development based in Pahalgam, J&K, India.",
   icons: {
     icon: "/favicon.ico",
   },

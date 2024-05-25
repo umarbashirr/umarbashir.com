@@ -4,7 +4,7 @@ import React from "react";
 const HeroBanner = () => {
   return (
     <section
-      className="hero bg-[#fafafa] h-full 2xl:h-screen w-full pt-20"
+      className="hero bg-[#fafafa] h-full 2xl:h-screen w-full "
       id="heroSection"
     >
       <div className="container  mx-auto px-5 h-full w-full grid lg:grid-cols-2 items-center">

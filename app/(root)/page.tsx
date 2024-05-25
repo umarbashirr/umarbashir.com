@@ -6,12 +6,8 @@ import {
   ServicesBlock,
   WhyUsSection,
 } from "../../components/HomeComponents";
-import Portfolio from "../../components/Portfolio/Portfolio";
-import SectionWithMargin from "../../components/SectionWithMargin";
-import { SectionTitle } from "@/components";
-import { OUR_PORTFOLIO } from "@/utils/siteData";
-import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
 import PortfolioSection from "../../components/Portfolio/Portfolio";
+import SectionWithMargin from "../../components/SectionWithMargin";
 
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",

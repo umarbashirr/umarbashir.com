@@ -4,7 +4,7 @@ import { OUR_PORTFOLIO } from "../../utils/siteData";
 import SinglePortfolio from "./SinglePortfolio";
 import { Portfolio as PortfolioProps } from "@/interfaces/portfolio";
 
-const Portfolio = () => {
+const PortfolioSection = () => {
   return (
     <div>
       <div className="container mx-auto px-5">
@@ -25,4 +25,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioSection;

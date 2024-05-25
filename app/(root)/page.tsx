@@ -11,6 +11,7 @@ import SectionWithMargin from "../../components/SectionWithMargin";
 import { SectionTitle } from "@/components";
 import { OUR_PORTFOLIO } from "@/utils/siteData";
 import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
+import PortfolioSection from "../../components/Portfolio/Portfolio";
 
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
@@ -53,7 +54,7 @@ function addPersonJsonLd() {
         "@type": "Organization",
         name: "Self-Employed",
       },
-      email: "mailto:contact@umarbashir.com",
+      email: "mailto:mail.umarbashir@gmail.com",
     }`,
   };
 }
@@ -72,18 +73,7 @@ export default function Home() {
       <Banner />
       <ServicesBlock />
       <SectionWithMargin>
-        <div>
-          <SectionTitle title={OUR_PORTFOLIO.title} isCentered={true} />
-          <div className="container mx-auto px-5">
-            <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  mt-12 gap-12">
-              {OUR_PORTFOLIO.porfolios
-                ?.slice(0, 3)
-                ?.map((portfolio: Portfolio, index: number) => {
-                  return <SinglePortfolio key={index} portfolio={portfolio} />;
-                })}
-            </div>
-          </div>
-        </div>
+        <PortfolioSection />
       </SectionWithMargin>
     </>
   );

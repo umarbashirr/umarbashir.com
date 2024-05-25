@@ -17,7 +17,7 @@ const Header = () => {
   const pathname = usePathname();
 
   const handleScroll = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 0) {
       setIsSticky(true);
     } else {
       setIsSticky(false);
@@ -35,10 +35,10 @@ const Header = () => {
     <>
       <header
         className={twMerge(
-          "h-20 w-full flex justify-start items-center z-50",
+          "h-20 w-full flex justify-start items-center z-50 duration-300 transition-all ease-in-out",
           isSticky
-            ? "sticky top-0 left-0 bg-white text-gray-800"
-            : " bg-[#fafafa]",
+            ? "sticky top-0 left-0 bg-white text-gray-800 shadow-lg"
+            : " bg-transparent",
           scrollDirection === "down" ? "-top-20" : "top-0"
         )}
       >
@@ -81,7 +81,7 @@ const Header = () => {
             aria-label="Hire Me Now Button"
             className="bg-dark-primary-color hover:scale-105 duration-200 ease-linear ml-4 text-white font-semibold text-base px-4 py-2 rounded-md shadow-md"
           >
-            Hire Me Now
+            Let&lsquo;s Talk
           </Link>
           <button
             className="ml-auto text-3xl md:hidden"

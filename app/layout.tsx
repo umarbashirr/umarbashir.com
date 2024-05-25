@@ -61,7 +61,7 @@ export default function RootLayout({
           }}
         />
 
-        <div>
+        <div className="overflow-x-hidden">
           <Header />
           {/* <div className="particles">
             <div className="box bg-primary-color w-2 h-2 rounded-full fixed"></div>

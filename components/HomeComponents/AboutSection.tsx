@@ -17,14 +17,14 @@ const AboutSection = () => {
               title="Know About Me"
               isCentered={false}
             />
-            <p className="mt-6 leading-loose font-light">
+            <p className="mt-6 leading-loose ">
               I am Umar Bashir, a dedicated full-time web developer and SEO
-              expert from India. My passion is in creating high quality,
-              responsive websites that help businesses thrive online. With
-              extensive experience in web design, development, and SEO, I
-              transform ideas into engaging digital experiences.
+              expert from Jammu and Kashmir, India. My passion is in creating
+              high quality, responsive websites that help businesses thrive
+              online. With extensive experience in web design, development, and
+              SEO, I transform ideas into engaging digital experiences.
             </p>
-            <ul className="leading-loose font-light list-disc ml-6 mt-2">
+            <ul className="leading-loose  list-disc ml-6 mt-2">
               <li>
                 <strong>Experienced Professional:</strong> Years of expertise in
                 web development and SEO.

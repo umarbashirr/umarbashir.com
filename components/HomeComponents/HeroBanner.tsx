@@ -4,11 +4,11 @@ import React from "react";
 const HeroBanner = () => {
   return (
     <section
-      className="hero bg-[#fafafa] h-full 2xl:h-screen w-full "
+      className="py-20 hero bg-[#fafafa] h-full 2xl:h-screen w-full -mt-20"
       id="heroSection"
     >
       <div className="container  mx-auto px-5 h-full w-full grid lg:grid-cols-2 items-center">
-        <div className="py-20">
+        <div>
           <span className="uppercase text-base font-bold py-1 inline-flex rounded-xl mb-4">
             Hey there, I&lsquo;m
           </span>
@@ -27,18 +27,16 @@ const HeroBanner = () => {
           </p>
           <div className="flex items-center justify-start gap-4">
             <Link
-              href="/umar_bashir_resume.pdf"
-              download={true}
-              target="_blank"
+              href="/portfolio"
               className="inline-flex py-2 px-4 md:py-4 md:px-10 rounded-lg md:rounded-xl shadow-md bg-dark-primary-color text-white hover:scale-110 duration-200 ease-linear border-2 border-darkbg-dark-primary-color mt-8 md:mt-[50px]"
             >
-              My Resume
+              My Portfolio
             </Link>
             <Link
               href="/portfolio"
-              className="inline-flex py-2 px-8 md:py-4 md:px-10 rounded-lg md:rounded-xl shadow-md bg-dark-primary-color text-white hover:scale-110 duration-200 ease-linear border-2 border-darkbg-dark-primary-color mt-8 md:mt-[50px]"
+              className="inline-flex py-2 px-8 md:py-4 md:px-10 rounded-lg md:rounded-xl shadow-md bg-dark-primary-color text-white hover:scale-110 duration-200 ease-linear border-2 border-darkbg-dark-primary-color mt-8 md:mt-[50px] capitalize"
             >
-              My Portfolio
+              Let&lsquo;s discuss project
             </Link>
           </div>
         </div>

@@ -15,12 +15,12 @@ const HeroBanner = () => {
           <h1 className="text-3xl md:text-5xl font-bold mb-8 leading-tight up">
             Umar Bashir 👋
             <span className="text-dark-primary-color leading-tight inline-block">
-              Software Developer
+              Full Stack Web Developer
             </span>{" "}
             <br />
             from India
           </h1>
-          <p className="text-base md:text-xl w-[80%] leading-9">
+          <p className="text-base md:text-xl w-[80%] md:leading-9">
             I specialize in building high-quality, fully responsive, and
             user-friendly websites and web applications using modern web tools &
             technologies.

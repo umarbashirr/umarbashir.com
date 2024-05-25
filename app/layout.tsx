@@ -61,9 +61,7 @@ export default function RootLayout({
           }}
         />
 
-        <div
-          className={`flex flex-col min-h-screen w-full justify-start overflow-x-hidden ${poppin.className}`}
-        >
+        <div>
           <Header />
           {/* <div className="particles">
             <div className="box bg-primary-color w-2 h-2 rounded-full fixed"></div>
@@ -72,7 +70,7 @@ export default function RootLayout({
             <div className="box bg-yellow-300 w-2 h-2 rounded-full fixed"></div>
             <div className="box bg-pink-500 w-2 h-2 rounded-full fixed"></div>
           </div> */}
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow min-h-[80vh]">{children}</main>
           <Footer />
           <div className="fixed bottom-6 right-6 p-2 cursor-pointer bg-dark-primary-color rounded-3xl">
             <Link

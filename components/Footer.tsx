@@ -8,7 +8,7 @@ import {
   FaLinkedin,
   FaPhone,
 } from "react-icons/fa";
-import { FooterMenu } from "../utils/siteData";
+import { FooterMenu, SITE_DETAILS } from "../utils/siteData";
 
 const Footer = () => {
   return (
@@ -31,16 +31,16 @@ const Footer = () => {
             <h2 className="capitalize text-2xl">Reach To Me</h2>
             <div className="flex flex-col gap-y-4 mt-4 md:mt-6">
               <Link
-                href="mailto:umarbashir601@gmail.com"
+                href={`mailto:${SITE_DETAILS?.email}`}
                 className="flex items-center justify-start space-x-2 hover:text-secondary-color"
               >
-                <FaEnvelope /> <span>umarbashir601@gmail.com</span>
+                <FaEnvelope /> <span>{SITE_DETAILS?.email}</span>
               </Link>
               <Link
-                href="tel:+917889737464"
+                href={`tel:${SITE_DETAILS?.phone}`}
                 className="flex items-center justify-start space-x-2 hover:text-secondary-color"
               >
-                <FaPhone /> <span>+91 7889737464</span>
+                <FaPhone /> <span>{SITE_DETAILS?.phone}</span>
               </Link>
             </div>
           </div>

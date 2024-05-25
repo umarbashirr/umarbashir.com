@@ -7,36 +7,40 @@ import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import Sidebar from "./Sidebar";
+import { useScrollDirection } from "@/hooks/useScrollDirection";
+import { twMerge } from "tailwind-merge";
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isSticky, setIsSticky] = useState(false);
+  const scrollDirection = useScrollDirection();
+  const pathname = usePathname();
 
-  const pathName = usePathname();
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
 
   useEffect(() => {
-    function checkScroll() {
-      if (window.scrollY > 100) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    }
-
-    window.addEventListener("scroll", checkScroll);
-
-    // Clean up the event listener when the component unmounts
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("scroll", checkScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // An empty dependency array ensures this effect runs only once after initial render
+  }, []);
 
   return (
     <>
       <header
-        className={`h-20 w-full flex justify-start items-center  border-0 fixed -top-1 z-50 ${
-          isScrolled && "bg-white text-gray-800"
-        }`}
+        className={twMerge(
+          "h-20 w-full flex justify-start items-center z-50",
+          isSticky
+            ? "sticky top-0 left-0 bg-white text-gray-800"
+            : " bg-[#fafafa]",
+          scrollDirection === "down" ? "-top-20" : "top-0"
+        )}
       >
         <div className="container mx-auto px-5  flex justify-start items-center">
           <Link
@@ -44,7 +48,7 @@ const Header = () => {
             className="flex items-center justify-start gap-2"
             aria-labelledby="Umar Bashir Portfolio logo"
           >
-            <div className="relative w-10 h-10">
+            <div className="relative w-24 h-24">
               <Image
                 src="/images/Logo.svg"
                 alt="Umar Bashir Portfolio Logo"
@@ -57,11 +61,11 @@ const Header = () => {
               return (
                 <Link
                   className={`capitalize hover:text-dark-primary-color duration-300 ease-in-out font-medium ${
-                    pathName === path
+                    pathname === path
                       ? "text-dark-primary-color"
-                      : pathName === "/"
+                      : pathname === "/"
                       ? "text-gray-800"
-                      : `text-gray-800 ${isScrolled && "text-gray-800"}`
+                      : `text-gray-800 ${isSticky && "text-gray-800"}`
                   }`}
                   key={index}
                   href={path}

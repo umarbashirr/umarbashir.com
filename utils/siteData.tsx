@@ -10,12 +10,26 @@ import {
   FaCog,
   FaDesktop,
   FaLaptopCode,
+  FaLifeRing,
   FaMobile,
+  FaMobileAlt,
+  FaPenNib,
+  FaSearch,
   FaShoppingCart,
+  FaTachometerAlt,
+  FaTools,
   FaWhatsapp,
   FaWordpress,
 } from "react-icons/fa";
 import { Portfolios } from "../interfaces/portfolio";
+import { FaPaintbrush } from "react-icons/fa6";
+
+export const SITE_DETAILS = {
+  name: "Umar Bashir Rather",
+  email: "mail.umarbashir@gmail.com",
+  phone: "+917889737464",
+  address: "Pahalgam, District Anantnag, Jammu and Kashmir - 192401",
+};
 
 export const NAV_MENU = [
   {
@@ -88,25 +102,46 @@ export const WHY_CHOOSE_US = {
   title: "Why Me?",
   cardsArr: [
     {
+      title: "Customized websites",
+      desc: "Customized websites that reflect your brand identity ensure a unique and personalized online presence.",
       icon: (
-        <CgToolbox className="h-14 w-14 text-secondary-color group-hover:text-white" />
+        <FaPaintbrush className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
-      title: "Expertise",
-      desc: "I have years of experience in web development and design, and I am committed to delivering high-quality work.",
     },
     {
+      title: "Responsive Design",
+      desc: "Websites optimized for all devices enhance the user experience on desktop, tablet and smartphone.",
       icon: (
-        <BiCustomize className="h-14 w-14 text-secondary-color group-hover:text-white" />
+        <FaMobileAlt className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
-      title: "Customization",
-      desc: "I provide custom web development and design services tailored to your specific needs and requirements.",
     },
     {
+      title: "SEO Optimization",
+      desc: "On-page SEO techniques to improve your search engine visibility and drive organic traffic.",
       icon: (
-        <MdOutlineHeadsetMic className="h-14 w-14 text-secondary-color group-hover:text-white" />
+        <FaSearch className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
-      title: "Customer Support",
-      desc: "I am dedicated to providing excellent customer support and ensuring that you are satisfied with the final product.",
+    },
+    {
+      title: "E-commerce Solutions",
+      desc: "Secure and efficient online store setup, providing a seamless shopping experience to your customers.",
+      icon: (
+        <FaShoppingCart className="h-14 w-14 text-secondary-color group-hover:text-white" />
+      ),
+    },
+    {
+      title: "Performance & Speed",
+      desc: "Fast loading websites designed to keep users engaged and reduce bounce rates.",
+      icon: (
+        <FaTachometerAlt className="h-14 w-14 text-secondary-color group-hover:text-white" />
+      ),
+    },
+    {
+      title: "Ongoing Support",
+      desc: "Reliable maintenance and support services after launch to ensure your website remains up to date.",
+      icon: (
+        <FaLifeRing className="h-14 w-14 text-secondary-color group-hover:text-white" />
+      ),
     },
   ],
 };
@@ -114,8 +149,16 @@ export const WHY_CHOOSE_US = {
 // Let rewrite the below data as my portfolio services
 
 export const OurServices = {
-  title: "What I Do?",
+  title: "My Services",
+  subtitle: "Services I Offer",
   cardsArr: [
+    {
+      icon: (
+        <FaPenNib className="h-14 w-14 text-secondary-color group-hover:text-white" />
+      ),
+      title: "Logo and Branding",
+      desc: "I create distinctive logos and branding materials that establish a strong visual identity for your business.",
+    },
     {
       icon: (
         <FaDesktop className="h-14 w-14 text-secondary-color group-hover:text-white" />
@@ -132,10 +175,24 @@ export const OurServices = {
     },
     {
       icon: (
-        <FaWordpress className="h-14 w-14 text-secondary-color group-hover:text-white" />
+        <FaMobileAlt className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
-      title: "WordPress Development",
-      desc: "I specialize in WordPress development services that are tailored to your specific business needs.",
+      title: "Mobile App Development",
+      desc: "I develop mobile applications that provide a seamless experience across various devices and platforms.",
+    },
+    {
+      icon: (
+        <FaSearch className="h-14 w-14 text-secondary-color group-hover:text-white" />
+      ),
+      title: "SEO",
+      desc: "I offer SEO services to improve your website's visibility and ranking on search engines, driving more organic traffic.",
+    },
+    {
+      icon: (
+        <FaTools className="h-14 w-14 text-secondary-color group-hover:text-white" />
+      ),
+      title: "Website Maintenance",
+      desc: "I provide ongoing website maintenance services to ensure your site remains updated, secure, and functional.",
     },
     {
       icon: (
@@ -146,17 +203,17 @@ export const OurServices = {
     },
     {
       icon: (
-        <FaMobile className="h-14 w-14 text-secondary-color group-hover:text-white" />
+        <FaCog className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
-      title: "PWA Development",
-      desc: "I offer professional PWA development which is a web application that uses modern web capabilities to deliver an app-like experience to users.",
+      title: "CMS Development",
+      desc: "I offer custom CMS development services that cater to your specific business needs, providing easy content management.",
     },
     {
       icon: (
-        <FaCog className="h-14 w-14 text-secondary-color group-hover:text-white" />
+        <FaWordpress className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
-      title: "Custom CMS Development",
-      desc: "I provide custom CMS development services that cater to your specific business needs.",
+      title: "WordPress Development",
+      desc: "I specialize in WordPress development services that are tailored to your specific business needs.",
     },
   ],
 };
@@ -181,8 +238,8 @@ export const CONTACT_CARD = [
     title: "Contact With Email",
     options: [
       {
-        path: "mailto:umarbashir601@gmail.com",
-        label: "umarbashir601@gmail.com",
+        path: "mailto:mail.umarbashir@gmail.com",
+        label: "mail.umarbashir@gmail.com",
       },
     ],
   },
@@ -203,6 +260,11 @@ export const CONTACT_CARD = [
 export const OUR_PORTFOLIO: Portfolios = {
   title: "My Portfolio",
   porfolios: [
+    {
+      title: "Snowpeak Hotel",
+      url: "https://snowpeak-hotel.vercel.app",
+      image: "/images/portfolio/snowpeak.jpg",
+    },
     {
       title: "Profit and Co.",
       url: "https://profit-and-co.vercel.app",

@@ -48,7 +48,7 @@ const AboutPage = () => {
               </h2>
               <p className="text-lg text-dark-color leading-loose ">
                 My name is Umar Bashir and I am a professional software
-                developer with over 03 years of experience. I have a passion for
+                developer with over 05 years of experience. I have a passion for
                 creating innovative and user-friendly websites that are both
                 visually appealing and highly functional.
               </p>

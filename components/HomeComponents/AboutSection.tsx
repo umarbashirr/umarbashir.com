@@ -12,22 +12,39 @@ const AboutSection = () => {
             {/* <p className="bg-secondary-color text-white px-3 py-1 text-xs rounded-2xl inline-flex">
               About Us
             </p> */}
-            <SectionTitle title="About Me" isCentered={undefined} />
-            <p className="mt-4 text-xl leading-loose font-light">
-              I am a professional software developer with over 03 years of
-              experience in web design and development. I am passionate about
-              software development and I always try to bring the best quality
-              service to my clients.{" "}
-              <span className="inline-block mt-4">
-                {" "}
-                I am a fast learner and I am always interested in learning new
-                things. I have a strong technical background and I am confident
-                in my ability to deliver high-quality work.
-              </span>
+            <SectionTitle
+              subtitle="About Me"
+              title="Know About Me"
+              isCentered={false}
+            />
+            <p className="mt-6 leading-loose font-light">
+              I am Umar Bashir, a dedicated full-time web developer and SEO
+              expert from India. My passion is in creating high quality,
+              responsive websites that help businesses thrive online. With
+              extensive experience in web design, development, and SEO, I
+              transform ideas into engaging digital experiences.
             </p>
+            <ul className="leading-loose font-light list-disc ml-6 mt-2">
+              <li>
+                <strong>Experienced Professional:</strong> Years of expertise in
+                web development and SEO.
+              </li>
+              <li>
+                <strong>Customer-centric:</strong> Personalized solutions
+                tailored to the specific needs of each customer.
+              </li>
+              <li>
+                <strong>Quality Commitment:</strong> Providing top-notch,
+                user-friendly websites.
+              </li>
+              <li>
+                <strong>Support Partners:</strong> Offering ongoing support and
+                maintenance.
+              </li>
+            </ul>
             <Link
               href="/about"
-              className="mt-4 inline-flex px-6 py-2 bg-dark-primary-color text-white rounded-md shadow-md hover:bg-dark-primary-color duration-200 ease-in-out"
+              className="mt-6 inline-flex px-6 py-2 bg-dark-primary-color text-white rounded-md shadow-md hover:bg-dark-primary-color duration-200 ease-in-out"
             >
               Read more
             </Link>

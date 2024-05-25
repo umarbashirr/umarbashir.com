@@ -49,21 +49,14 @@ const AboutPage = () => {
                 Who I am?
               </h2>
               <p className="text-lg text-dark-color leading-loose ">
-<<<<<<< HEAD
-                My name is Umar Bashir and I am a professional software
-                developer with over 05 years of experience. I have a passion for
-                creating innovative and user-friendly websites that are both
-                visually appealing and highly functional.
-=======
                 Hello, I am Umar Bashir Rather, a professional software
-                developer with over 5 years of experience specializing in
+                developer with over 05 years of experience specializing in
                 website design and development. I am passionate about providing
                 high quality services to my clients and staying ahead of
                 industry trends. Based in Pahalgam, Jammu and Kashmir, India, I
                 provide a variety of services including website design, website
                 development (including hotel, travel, business, and e-commerce
                 websites), on-page SEO, and custom web app development.
->>>>>>> 7d0b1e6dbc929a4fea6fa4c970207ead80468ccd
               </p>
               <p className="text-lg text-dark-color leading-loose ">
                 With a strong technical background and a commitment to

@@ -238,8 +238,13 @@ export const CONTACT_CARD = [
     title: "Contact With Email",
     options: [
       {
+<<<<<<< HEAD
         path: "mailto:mail.umarbashir@gmail.com",
         label: "mail.umarbashir@gmail.com",
+=======
+        path: "mailto:contact@umarbashir.com",
+        label: "contact@umarbashir.com",
+>>>>>>> 7d0b1e6dbc929a4fea6fa4c970207ead80468ccd
       },
     ],
   },

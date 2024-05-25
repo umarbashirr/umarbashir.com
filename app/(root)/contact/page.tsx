@@ -6,19 +6,21 @@ import { Metadata } from "next";
 import ContactForm from "./components/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact | Umar Bashir Portfolio | Software Developer",
+  title:
+    "Contact |Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/contact`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/contact`,
-    title: "Contact | Umar Bashir Portfolio | Software Developer",
+    title:
+      "Contact |Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
       "Get in touch with me for any queries, project discussions, or just to say hello. I am always open to new opportunities and collaborations.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "https://www.umarbashir.com/images/og-image.png",
         width: 800,
         height: 600,
         alt: "Umar Bashir Portfolio",

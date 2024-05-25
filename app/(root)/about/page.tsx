@@ -5,25 +5,27 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "About Me | Umar Bashir Portfolio | Software Developer",
+  title:
+    "About Me | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   alternates: {
     canonical: `${process.env.APP_URL}/about`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/about`,
-    title: "About Me | Umar Bashir Portfolio | Software Developer",
+    title:
+      "About Me | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
     description:
-      "Software developer with over 4 years of experience building web applications and websites using modern technologies.",
+      "Professional Web Developer with over 5 years of experience specializing in custom websites, e-commerce, SEO & web app development based in Pahalgam, J&K, India.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "https://www.umarbashir.com/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
   },
 };
 
@@ -47,16 +49,27 @@ const AboutPage = () => {
                 Who I am?
               </h2>
               <p className="text-lg text-dark-color leading-loose ">
+<<<<<<< HEAD
                 My name is Umar Bashir and I am a professional software
                 developer with over 05 years of experience. I have a passion for
                 creating innovative and user-friendly websites that are both
                 visually appealing and highly functional.
+=======
+                Hello, I am Umar Bashir Rather, a professional software
+                developer with over 5 years of experience specializing in
+                website design and development. I am passionate about providing
+                high quality services to my clients and staying ahead of
+                industry trends. Based in Pahalgam, Jammu and Kashmir, India, I
+                provide a variety of services including website design, website
+                development (including hotel, travel, business, and e-commerce
+                websites), on-page SEO, and custom web app development.
+>>>>>>> 7d0b1e6dbc929a4fea6fa4c970207ead80468ccd
               </p>
               <p className="text-lg text-dark-color leading-loose ">
-                I am dedicated to providing clients with the best possible
-                solutions to meet their unique needs. I am committed to staying
-                current with the latest trends and technologies to ensure that
-                my clients receive the best possible results.
+                With a strong technical background and a commitment to
+                excellence, I am dedicated to delivering high quality work that
+                exceeds expectations. Partner with me to bring your online
+                presence to the next level.
               </p>
             </article>
             {/* Left */}

@@ -261,6 +261,11 @@ export const OUR_PORTFOLIO: Portfolios = {
   title: "My Portfolio",
   porfolios: [
     {
+      title: "Travilio",
+      url: "https://travilio.vercel.app",
+      image: "/images/portfolio/travilio.jpg",
+    },
+    {
       title: "Snowpeak Hotel",
       url: "https://snowpeak-hotel.vercel.app",
       image: "/images/portfolio/snowpeak.jpg",

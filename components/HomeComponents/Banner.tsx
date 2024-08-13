@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
-      className="mt-20 sm:mt-0 py-20 flex flex-col items-center gap-y-6"
+      className="mt-20 sm:mt-0 py-20 lg:h-[500px] flex flex-col items-center justify-center gap-y-6"
       style={{
         background:
           "linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/images/coding-laptop.jpg')",

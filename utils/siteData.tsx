@@ -261,6 +261,31 @@ export const OUR_PORTFOLIO: Portfolios = {
   title: "My Portfolio",
   porfolios: [
     {
+      title: "Wanbhar Hotel",
+      short_desc:
+        "Wanbhar Hotel is located in the heart of Pahalgam, Kashmir. The hotel offers a range of amenities and services to make your stay comfortable and memorable.",
+      url: "https://www.wanbharhotel.com",
+      image: "/images/portfolio/wanbhar.jpeg",
+      category: "Hotel",
+    },
+    {
+      title: "Mamal Homestay",
+      short_desc:
+        "Mamal Homestay is a beautiful homestay located in the heart of Pahalgam, Kashmir. The homestay offers 03 rooms with shared kitchen and bathroom facilities.",
+      url: "https://www.mamalhomestay.com",
+      image: "/images/portfolio/mamalhomestay.jpeg",
+      category: "Homestay",
+    },
+    {
+      title: "Inn of Dreams",
+      short_desc:
+        "Inn of Dreams is located in the heart of Pahalgam, Kashmir. The hotel offers a beautiful view of the Lidder River and the surrounding mountains.",
+      url: "https://www.innofdreams.com",
+      image: "/images/portfolio/innofdreams.jpeg",
+      category: "Hotel",
+    },
+
+    {
       title: "Travilio",
       url: "https://travilio.vercel.app",
       image: "/images/portfolio/travilio.jpg",

@@ -8,6 +8,7 @@ import {
 } from "../../components/HomeComponents";
 import PortfolioSection from "../../components/Portfolio/Portfolio";
 import SectionWithMargin from "../../components/SectionWithMargin";
+import { OUR_PORTFOLIO } from "@/utils/siteData";
 
 export const metadata: Metadata = {
   title: "Home | Umar Bashir Rather - Freelance Web Developer & SEO Specialist",
@@ -69,7 +70,7 @@ export default function Home() {
       <Banner />
       <ServicesBlock />
       <SectionWithMargin>
-        <PortfolioSection />
+        <PortfolioSection portfolios={OUR_PORTFOLIO.porfolios} />
       </SectionWithMargin>
     </>
   );

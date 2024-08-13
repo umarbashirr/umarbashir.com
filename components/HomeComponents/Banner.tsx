@@ -3,8 +3,17 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-[#f8fbfd] py-40 flex flex-col items-center gap-y-12">
-      <h2 className="text-3xl md:text-5xl lg:text-7xl max-w-[70%] font-extrabold leading-normal mx-auto lg:leading-[80px] text-center text-dark-color">
+    <div
+      className="mt-20 sm:mt-0 py-20 flex flex-col items-center gap-y-6"
+      style={{
+        background:
+          "linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/images/coding-laptop.jpg')",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <h2 className="text-3xl md:text-5xl lg:text-7xl max-w-[70%] font-extrabold leading-normal md:leading-relaxed mx-auto lg:leading-[90px] text-center text-white">
         Have a project in mind? Let&rsquo;s talk about it.
       </h2>
       <Link

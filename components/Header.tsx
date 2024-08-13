@@ -36,10 +36,10 @@ const Header = () => {
       <header
         className={twMerge(
           "h-20 w-full flex justify-start items-center z-50 duration-300 transition-all ease-in-out",
+          scrollDirection === "down" ? "-top-20" : "top-0",
           isSticky
-            ? "sticky top-0 left-0 bg-white text-gray-800 shadow-lg"
-            : " bg-transparent",
-          scrollDirection === "down" ? "-top-20" : "top-0"
+            ? "sticky left-0 bg-white text-gray-800 shadow-lg"
+            : " bg-transparent"
         )}
       >
         <div className="container mx-auto px-5  flex justify-start items-center">

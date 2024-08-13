@@ -1,10 +1,8 @@
-import React from "react";
-import SectionTitle from "../SectionTitle";
-import { OUR_PORTFOLIO } from "../../utils/siteData";
-import SinglePortfolio from "./SinglePortfolio";
 import { Portfolio as PortfolioProps } from "@/interfaces/portfolio";
+import SectionTitle from "../SectionTitle";
+import SinglePortfolio from "./SinglePortfolio";
 
-const PortfolioSection = () => {
+const PortfolioSection = ({ portfolios }: { portfolios: PortfolioProps[] }) => {
   return (
     <div>
       <div className="container mx-auto px-5">
@@ -14,11 +12,9 @@ const PortfolioSection = () => {
           isCentered={true}
         />
         <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mt-12 gap-12">
-          {OUR_PORTFOLIO.porfolios.map(
-            (portfolio: PortfolioProps, index: number) => {
-              return <SinglePortfolio key={index} portfolio={portfolio} />;
-            }
-          )}
+          {portfolios.splice(0, 6).map((d: PortfolioProps, index: number) => {
+            return <SinglePortfolio key={index} portfolio={d} />;
+          })}
         </div>
       </div>
     </div>

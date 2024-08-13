@@ -9,4 +9,5 @@ export interface Portfolio {
   image: string;
   category?: string;
   techStack?: string[];
+  short_desc?: string;
 }

@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <GoogleAnalytics GTM_ID={process.env.GTM_ID!} />
-      <body>
+      <body className={poppin.className}>
         <Analytics />
         <SpeedInsights />
         <noscript

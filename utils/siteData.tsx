@@ -261,6 +261,14 @@ export const OUR_PORTFOLIO: Portfolios = {
   title: "My Portfolio",
   porfolios: [
     {
+      title: "Hotel Three Queens",
+      short_desc:
+        "Developed a fully responsive website for Hotel Three Queens in Pahalgam, Kashmir, featuring a user-friendly interface, detailed room descriptions, and a visually appealing gallery, designed to enhance the booking experience and showcase the hotel's luxury offerings.",
+      url: "https://hotelthreequeens.com",
+      image: "/images/portfolio/hotel_three_queens.jpeg",
+      category: "Hotel",
+    },
+    {
       title: "Wanbhar Hotel",
       short_desc:
         "Wanbhar Hotel is located in the heart of Pahalgam, Kashmir. The hotel offers a range of amenities and services to make your stay comfortable and memorable.",

@@ -74,7 +74,7 @@ export default function AboutPage() {
                             Node.js, and TypeScript. My journey in software development started with a curiosity to
                             solve real-world problems through technology.
                         </p>
-                        <div className="flex flex-col md:flex md:items-center gap-4 mt-6">
+                        <div className="flex flex-col md:flex md:flex-row md:items-center gap-4 mt-6">
                             <Link href='/my-work'
                                   className="bg-indigo-600 text-white py-3 px-6 rounded shadow font-medium text-sm hover:bg-indigo-700 transition duration-300 ease-in-out">
                                 My Work
@@ -164,7 +164,7 @@ export default function AboutPage() {
             </section>
 
             {/* Personal Interests */}
-            <section className="mb-16 md:mb-40">
+            <section className="mb-16">
                 <h2 className="text-3xl font-bold mb-6 text-gray-300">
                     Beyond Code
                 </h2>

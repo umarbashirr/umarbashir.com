@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {FacebookIcon, GithubIcon, Instagram, Linkedin} from "lucide-react";
+import {FacebookIcon, GithubIcon, Linkedin} from "lucide-react";
 import React from "react";
 
 export const SocialLinks = () => {

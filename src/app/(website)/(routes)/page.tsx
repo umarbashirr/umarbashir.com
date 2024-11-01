@@ -6,42 +6,22 @@ import Script from "next/script";
 import {Metadata} from "next";
 
 const jsonLdStructuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'Person',
-    'name': 'Umar Bashir',
-    'jobTitle': 'Full Stack Developer',
-    'alternateName': 'Software Engineer',
-    'url': 'https://www.umarbashir.com',
-    'image': 'https://www.umarbashir.com/profile_image.jpg',
-    'description': 'Full Stack Developer with 3 years of experience in JavaScript, specializing in web and software solutions.',
-    'worksFor': {
-        '@type': 'Organization',
-        'name': 'Bloom Hotel Group'
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "additionalName": "Umar Bashir",
+    "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "addressRegion": "Jammu and Kashmir",
+        "postalCode": "192401",
+        "streetAddress": "Charigam, Pahalgam, District Anantnag",
+        "email": "mail@umarbashir@gmail.com",
+        "telephone": "+917889737464"
     },
-    'alumniOf': {
-        '@type': 'EducationalOrganization',
-        'name': 'Green Wood High School and College'
-    },
-    'skills': [
-        'ReactJS',
-        'NextJS',
-        'NodeJS',
-        'TypeScript',
-        'MongoDB',
-        'PostgreSQL'
-    ],
-    'contactPoint': {
-        '@type': 'ContactPoint',
-        'email': 'mail@umarbashir@gmail.com',
-        'contactType': 'Professional'
-    },
-    'sameAs': [
-        'https://www.linkedin.com/in/umarbashirr',
-        'https://github.com/umarbashirr',
-        'https://x.com/umarbashirr',
-        'https://www.facebook.com/umar12393'
-    ]
+    "jobTitle": "Full Stack Developer",
+    "image": "https://www.umarbashir.com/profile_image.jpg"
 }
+
 
 export const metadata: Metadata = {
     title: 'Umar Bashir - Full Stack Developer',

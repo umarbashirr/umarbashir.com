@@ -40,7 +40,7 @@ const Navbar = () => {
                         <Logo/>
                         <Navigation/>
                         <div className="flex items-center justify-end gap-4">
-                            <button role="button" className="block md:hidden" onClick={() => setSidebarOpen(true)}>
+                            <button  aria-label="Open navigation menu" role="button" className="block md:hidden" onClick={() => setSidebarOpen(true)}>
                                 <MenuIcon className="w-7 h-7 text-gray-200"/>
                             </button>
                             <Link href="mailto:mail.umarbashir@gmail.com" target="_blank"
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className="w-full h-full p-8 flex flex-col">
                     <div className="flex items-center justify-between border border-gray-600 rounded-md p-2">
                         <Logo/>
-                        <button onClick={() => setSidebarOpen(false)}>
+                        <button onClick={() => setSidebarOpen(false)}  aria-label="Close navigation menu">
                             <XIcon className="w-6 h-6 text-white "/>
                         </button>
                     </div>

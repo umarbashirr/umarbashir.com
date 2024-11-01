@@ -1,36 +1,79 @@
-import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-
 import {clientWork} from "@/utils/home-content";
+import Image from "next/image";
 import {ExternalLink} from "lucide-react";
+import React from "react";
+import {Metadata} from "next";
 
-export const ProjectGrid = () => {
+export const metadata: Metadata = {
+    title: 'My Work - Umar Bashir',
+    description: 'A collection of projects by Umar Bashir, showcasing web development and other work.',
+    authors: [{ name: 'Umar Bashir' }],
+    keywords: [
+        'Portfolio',
+        'Web Development',
+        'Projects by Umar Bashir',
+        'JavaScript',
+        'React',
+        'Node.js',
+        'Jammu and Kashmir'
+    ],
+    openGraph: {
+        title: 'My Work - Umar Bashir',
+        description: 'Projects by Umar Bashir, including various development work.',
+        type: 'website',
+        locale: 'en_US',
+        url: 'https://www.umarbashir.com/my-work',
+        siteName: 'Umar Bashir Portfolio',
+        images: [
+            {
+                url: 'https://www.umarbashir.com/og-image.jpeg',
+                width: 1200,
+                height: 630,
+                alt: 'My Work - Umar Bashir'
+            }
+        ]
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'My Work - Umar Bashir',
+        description: 'Projects by Umar Bashir, including various development work.',
+        images: ['https://www.umarbashir.com/og-image.jpeg']
+    },
+    alternates: {
+        canonical: 'https://www.umarbashir.com/my-work'
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1
+        }
+    },
+}
+
+
+
+const MyWorkPage = () => {
     return (
-        <div className="pb-28">
-            <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-10">
-                <div>
-                    <h2 className="text-4xl font-bold text-gray-300">
-                        My Work
-                    </h2>
-                    <p className="mt-4 text-gray-300 text-sm">
-                        Work which I have done for my clients as well as side projects.
-                    </p>
-                </div>
-                <div>
-                    <Link href="/my-work" className="border text-gray-300 rounded shadow py-2 px-4">
-                        View All Projects
-                    </Link>
-                </div>
+        <div className="py-12 md:py-28">
+            <div className="mb-10">
+                <h1 className="text-5xl text-center font-bold text-gray-300">
+                    My Work
+                </h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {clientWork.slice(0,6).map((work, index) => {
+                {clientWork.map((work, index) => {
                     return (
                         <div
                             key={index}
                             className="border border-gray-800 p-2 rounded-md"
                         >
-                            <div className="relative w-full h-[300px] rounded-md overflow-hidden">
+                            <div className="relative w-full h-[250px] md:h-[300px] rounded-md overflow-hidden">
                                 <Image
                                     src={work.image}
                                     alt={work.title + "landing page image"}
@@ -77,3 +120,5 @@ export const ProjectGrid = () => {
         </div>
     )
 }
+
+export default MyWorkPage;

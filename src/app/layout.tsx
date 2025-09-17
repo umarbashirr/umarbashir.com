@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
+import { ThemeProvider } from "@/providers/theme-provider";
 
 const font = Montserrat({
   subsets: ["latin"],
@@ -11,7 +12,6 @@ export const metadata: Metadata = {
   title: "Umar Bashir Rather | Full Stack Developer",
   description:
     "Hi, I'm Umar Bashir. Welcome to my portfolio, where I share my work in web and software development, including projects and services I offer. Let’s build something great.",
-
 };
 
 export default function RootLayout({
@@ -21,8 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${font.className} antialiased h-full bg-black`}>
-        {children}
+      <body className={`${font.className} antialiased h-full`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

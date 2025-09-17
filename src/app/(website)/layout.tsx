@@ -6,7 +6,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const WebsiteLayout = ({children}: { children: ReactNode }) => {
     return (
         <>
-            <div className="max-w-screen-xl mx-auto  px-6">
+            <div className="max-w-(--breakpoint-xl) mx-auto  px-6">
                 <Navbar/>
                 <main>{children}</main>
                 <Footer/>

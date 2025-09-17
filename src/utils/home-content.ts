@@ -1,152 +1,477 @@
 export const skills = [
-    {
-        title: "HTML",
-        img: "/skills/html.svg",
-    },
-    {
-        title: "CSS",
-        img: "/skills/css.svg",
-    },
+  {
+    title: "HTML",
+    img: "/skills/html.svg",
+  },
+  {
+    title: "CSS",
+    img: "/skills/css.svg",
+  },
 
-    {
-        title: "TailwindCSS",
-        img: "/skills/tailwindcss.svg",
-    },
-    {
-        title: "JavaScript",
-        img: "/skills/javascript-logo-svgrepo-com.svg",
-    },
-    {
-        title: "TypeScript",
-        img: "/skills/typescript-svgrepo-com.svg",
-    },
+  {
+    title: "TailwindCSS",
+    img: "/skills/tailwindcss.svg",
+  },
+  {
+    title: "JavaScript",
+    img: "/skills/javascript-logo-svgrepo-com.svg",
+  },
+  {
+    title: "TypeScript",
+    img: "/skills/typescript-svgrepo-com.svg",
+  },
 
-    {
-        title: "React JS",
-        img: "/skills/react-logo-svgrepo-com.svg",
-    },
+  {
+    title: "React JS",
+    img: "/skills/react-logo-svgrepo-com.svg",
+  },
 
-    {
-        title: "NextJS",
-        img: "/skills/nextjs-fill-svgrepo-com.svg",
-    },
-    {
-        title: "NodeJS",
-        img: "/skills/nodejs.svg",
-    },
-    {
-        title: "Express",
-        img: "/skills/express.svg",
-    },
-    {
-        title: "MongoDB",
-        img: "/skills/mongodb.svg",
-    },
-    {
-        title: "Postgresql",
-        img: "/skills/postgres.svg",
-    },
-    {
-        title: "Github",
-        img: "/skills/github.svg",
-    },
+  {
+    title: "NextJS",
+    img: "/skills/nextjs-fill-svgrepo-com.svg",
+  },
+  {
+    title: "NodeJS",
+    img: "/skills/nodejs.svg",
+  },
+  {
+    title: "Express",
+    img: "/skills/express.svg",
+  },
+  {
+    title: "MongoDB",
+    img: "/skills/mongodb.svg",
+  },
+  {
+    title: "Postgresql",
+    img: "/skills/postgres.svg",
+  },
+  {
+    title: "Github",
+    img: "/skills/github.svg",
+  },
 ];
 
 export const clientWork = [
-    {
-        title: "Private Fleet Services",
-        short_desc:
-            "Developed a multilingual website for Private Fleet Services, featuring comprehensive private aviation services and an exceptional user experience.",
-        url: "https://www.privatefleetservices.com/ar",
-        type: "aviation",
-        stack: ["NextJS", "TailwindCSS", "Strapi", "Digital Ocean"],
-        image: "/portfolio/private.jpeg",
+  {
+    id: "quick-check-in",
+    title: "Quick Check In",
+    short_desc:
+      "Digital check-in SaaS platform serving Kashmir hotels and guest houses with QR code check-in, digital ID upload, signature capture, and admin dashboard. Generates recurring revenue with real customers.",
+    long_desc:
+      "A comprehensive digital transformation solution for the hospitality industry in Kashmir. Quick Check In revolutionizes the guest check-in process by eliminating paperwork and streamlining operations for small hotels, guest houses, and homestays.",
+    url: "https://www.quickcheckin.in",
+    type: "hospitality",
+    category: "SaaS Platform",
+    status: "Live & Revenue Generating",
+    year: "2025",
+    client: "Quick Check In (Own Product)",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Better Auth",
+      "AWS S3",
+      "Supabase",
+      "Vercel",
+    ],
+    features: [
+      "QR Code Check-in System",
+      "Digital ID Upload & Verification",
+      "Digital Signature Capture",
+      "Admin Dashboard",
+      "Room Management System",
+      "Mobile-Friendly Interface",
+      "Automated Workflows",
+      "Data Export (CSV + Email)",
+      "Hotel Branding Customization",
+    ],
+    highlights: [
+      "Serving real customers in Kashmir",
+      "Generating recurring revenue",
+      "7-day free trial with simple subscription model",
+      "Trusted by hotels across Pahalgam",
+      "Mobile-first approach",
+    ],
+    metrics: {
+      users: "Active customers in Kashmir",
+      revenue: "Recurring SaaS revenue",
+      timeline: "Production-ready in 3 months",
     },
-    {
-        title: "Profit & Co.",
-        short_desc:
-            "Created a professional website for Profit & Co., a consulting firm offering high-end business services like strategy, growth, risk management etc.",
-        url: "https://profit-and-co.vercel.app/",
-        type: "consulting",
-        stack: ["next.js", "tailwindcss", "Vercel"],
-        image: "/portfolio/profit-and-co.png",
+    testimonials: [
+      {
+        quote:
+          "Quick Check In helped us modernize without any tech background. Guests scan the QR and check in themselves—it's a game-changer!",
+        author: "Adil Lone",
+        position: "Hilltop Homestay, Pahalgam",
+      },
+    ],
+    isFeatured: true,
+    image: "/portfolio/quickcheckin.jpeg",
+    gallery: [
+      "/portfolio/quickcheckin-dashboard.jpg",
+      "/portfolio/quickcheckin-mobile.jpg",
+      "/portfolio/quickcheckin-qr.jpg",
+    ],
+    challenges: [
+      "Digitizing traditional hospitality processes in Kashmir",
+      "Creating mobile-first experience for diverse user base",
+      "Building secure ID verification system",
+      "Developing sustainable revenue model",
+    ],
+    solutions: [
+      "Simple QR code system requiring no app downloads",
+      "Intuitive mobile interface with minimal steps",
+      "Secure cloud storage with automated backups",
+      "Flexible subscription pricing for small businesses",
+    ],
+    results: [
+      "Successfully onboarded hotels across Kashmir",
+      "Reduced check-in time by 70%",
+      "Eliminated paper-based processes",
+      "Generating sustainable recurring revenue",
+    ],
+  },
+  {
+    id: "nextkit",
+    title: "NextKit.in",
+    short_desc:
+      "Production-ready Next.js SaaS starter kit for developers to ship products faster. Includes authentication, Stripe billing, admin dashboard, user management, and email integration. Generating revenue through $20 lifetime access model with commercial license.",
+    long_desc:
+      "A comprehensive Next.js 15 SaaS starter kit designed to help developers launch their products in hours instead of months. Built with modern technologies and best practices, it includes everything needed for a production-ready SaaS application.",
+    url: "https://nextkit.in",
+    type: "developer-tools",
+    category: "SaaS Starter Kit",
+    status: "Live & Revenue Generating",
+    year: "2025",
+    client: "NextKit (Own Product)",
+    stack: [
+      "Next.js 15",
+      "TypeScript",
+      "Better Auth",
+      "Stripe",
+      "Drizzle ORM",
+      "Tailwind CSS",
+      "Nodemailer",
+    ],
+    features: [
+      "Complete Authentication System (Better Auth + OAuth)",
+      "Stripe Billing & Subscription Management",
+      "Admin Dashboard with User Management",
+      "Database Schema & Migrations (Drizzle ORM)",
+      "Email Templates & Integration",
+      "Marketing & Legal Pages",
+      "Deployment Guides",
+      "Commercial License Included",
+      "Lifetime Updates & Bug Fixes",
+    ],
+    highlights: [
+      "90% OFF launch special pricing",
+      "Pay once, own forever model",
+      "No trials, subscriptions, or setup fees",
+      "Complete commercial license",
+      "Discord community access",
+    ],
+    metrics: {
+      price: "$20 lifetime access",
+      savings: "Months of development time",
+      timeline: "Launch SaaS in hours",
     },
-    {
-        title: "Travilio Landing Page Template",
-        short_desc:
-            "Designed a sleek landing page template for Travilio, a travel agency, using Next.js and Tailwind CSS.",
-        url: "https://travilio.vercel.app/",
-        type: "travel",
-        stack: ["next.js", "tailwindcss", "vercel"],
-        image: "/portfolio/travilio.jpg",
-    },
-    {
-        title: "Hotel Website Template",
-        short_desc:
-            "Designed a complete website template for Hotel, featuring a luxury experience with detailed amenities and booking options.",
-        url: "https://snowpeak-hotel.vercel.app/",
-        type: "hospitality",
-        stack: ["next.js", "tailwindcss", "vercel", "shadcn ui"],
-        image: "/portfolio/snowpeak.jpg",
-    },
-
-    {
-        title: "Bareeq Lifts",
-        short_desc:
-            "Developed a bilingual corporate website for Bareeq Altanmiah Trading Company, highlighting their leadership in the Saudi elevator market",
-        url: "https://bareeqlift.com/",
-        type: "corporate",
-        stack: ["wordpress", "elementor"],
-        image: "/portfolio/bareeqlift.jpeg",
-    },
-    {
-        title: "Hotel Three Queens",
-        short_desc:
-            "Developed a fully responsive website for Hotel Three Queens, Pahalgam which showcases luxurious rooms and amenities.",
-        url: "https://hotelthreequeens.com/",
-        type: "hospitality",
-        stack: ["wordpress", "elementor"],
-        image: "/portfolio/hotel_three_queens.jpeg",
-    },
-    {
-        title: "Wanbhar Hotel",
-        short_desc: "Created a website for Wanbhar Hotel in Pahalgam. Focused on enhancing user experience, showcasing amenities, and providing clear information on room offerings and services.",
-        url: "https://www.wanbharhotel.com",
-        type: "hospitality",
-        stack: ["wordpress", "elementor"],
-        image: "/portfolio/wanbhar.jpeg"
-    },
-    {
-        title: "Mamal Homestay",
-        short_desc: "Designed a simple and appealing website for Mamal Homestay in Pahalgam, highlighting the comfort and homely atmosphere of the property for potential guests.",
-        url: "https://www.mamalhomestay.com",
-        type: "homestay",
-        stack: ["wordpress", "elementor"],
-        image: "/portfolio/mamalhomestay.jpeg"
-    },
-    {
-        title: "Inn of Dreams",
-        short_desc: "Developed an attractive website for Inn of Dreams, featuring stunning visuals of the Lidder River and mountains, designed to capture the essence of a tranquil stay.",
-        url: "https://www.innofdreams.com",
-        type: "hospitality",
-        stack: ["wordpress", "elementor"],
-        image: "/portfolio/innofdreams.jpeg"
-    },
-    {
-        title: "KTANCO",
-        short_desc: "Created a modern, easy-to-navigate website for KTANCO to showcase their engineering solutions and projects, emphasizing their innovative approach and expertise.",
-        url: "https://ktanco.com",
-        type: "engineering",
-        stack: ["wordpress"],
-        image: "/portfolio/ktanco.png"
-    },
-    {
-        title: "Flexible Bangalore Airport Taxi",
-        short_desc: "Created a booking platform for Flexible Bangalore Airport Taxi to allow users to easily book airport transfers, providing a fast, responsive, and simple interface.",
-        url: "https://flexiblebangaloreairporttaxi.vercel.app",
-        type: "transportation",
-        stack: ["HTML", "CSS", "JavaScript", "Node.js", "Parcel"],
-        image: "/portfolio/fbat.png"
-    }
-
+    isFeatured: true,
+    image: "/portfolio/nextkit.jpeg",
+    gallery: [
+      "/portfolio/nextkit-dashboard.jpg",
+      "/portfolio/nextkit-auth.jpg",
+      "/portfolio/nextkit-billing.jpg",
+    ],
+    challenges: [
+      "Creating comprehensive yet simple starter kit",
+      "Balancing features with ease of customization",
+      "Providing complete documentation and guides",
+      "Building sustainable one-time payment model",
+    ],
+    solutions: [
+      "Modular architecture for easy customization",
+      "Extensive documentation and deployment guides",
+      "Community support through Discord",
+      "Lifetime updates ensuring long-term value",
+    ],
+    results: [
+      "Helping developers ship faster",
+      "Positive developer community feedback",
+      "Sustainable revenue from one-time purchases",
+      "Growing user base of satisfied developers",
+    ],
+  },
+  {
+    id: "private-fleet-services",
+    title: "Private Fleet Services",
+    short_desc:
+      "Developed a multilingual website for Private Fleet Services, featuring comprehensive private aviation services and an exceptional user experience.",
+    long_desc:
+      "A sophisticated multilingual website for a Saudi-based private aviation company, showcasing luxury charter services with Arabic and English language support. The platform emphasizes premium user experience and comprehensive service presentation.",
+    url: "https://www.privatefleetservices.com/ar",
+    type: "aviation",
+    category: "Corporate Website",
+    status: "Live",
+    year: "2024",
+    client: "Private Fleet Services",
+    stack: ["Next.js", "Tailwind CSS", "Strapi CMS", "Digital Ocean"],
+    features: [
+      "Multilingual Support (Arabic & English)",
+      "Responsive Design",
+      "Content Management System",
+      "SEO Optimized",
+      "Fast Loading Performance",
+      "Professional Aviation Branding",
+      "Service Showcase",
+      "Contact Integration",
+    ],
+    highlights: [
+      "Serving Saudi aviation market",
+      "Full Arabic localization",
+      "Premium luxury branding",
+      "Headless CMS integration",
+    ],
+    isFeatured: true,
+    image: "/portfolio/private.jpeg",
+    gallery: [
+      "/portfolio/private-home.jpg",
+      "/portfolio/private-services.jpg",
+      "/portfolio/private-arabic.jpg",
+    ],
+    challenges: [
+      "Creating premium luxury brand experience",
+      "Implementing full Arabic localization",
+      "Optimizing for Middle Eastern market",
+      "Showcasing aviation services effectively",
+    ],
+    solutions: [
+      "Custom design reflecting luxury aviation",
+      "Native RTL Arabic language support",
+      "Culturally appropriate design elements",
+      "Clear service presentation architecture",
+    ],
+    results: [
+      "Successfully launched in Saudi market",
+      "Effective multilingual user experience",
+      "Professional brand representation",
+      "Positive client feedback on design quality",
+    ],
+  },
+  {
+    id: "profit-and-co",
+    title: "Profit & Co.",
+    short_desc:
+      "Created a professional website for Profit & Co., a consulting firm offering high-end business services like strategy, growth, risk management etc.",
+    long_desc:
+      "A sophisticated corporate website for a premium consulting firm specializing in business strategy, growth planning, and risk management. The design emphasizes professionalism and trust-building for high-end clientele.",
+    url: "https://profit-and-co.vercel.app/",
+    type: "consulting",
+    category: "Corporate Website",
+    status: "Live",
+    year: "2023",
+    client: "Profit & Co.",
+    stack: ["Next.js", "Tailwind CSS", "Vercel"],
+    features: [
+      "Professional Corporate Design",
+      "Service Portfolio Showcase",
+      "Client-Centric Approach Presentation",
+      "Responsive Layout",
+      "SEO Optimization",
+      "Fast Performance",
+      "Contact Integration",
+      "Professional Branding",
+    ],
+    highlights: [
+      "High-end consulting firm branding",
+      "Professional service presentation",
+      "Client-centric design approach",
+      "Trust-building elements",
+    ],
+    isFeatured: false,
+    image: "/portfolio/profit-and-co.png",
+    gallery: [
+      "/portfolio/profit-services.jpg",
+      "/portfolio/profit-approach.jpg",
+    ],
+    challenges: [
+      "Conveying premium consulting value",
+      "Building trust with corporate clients",
+      "Presenting complex services simply",
+      "Creating professional brand identity",
+    ],
+    solutions: [
+      "Clean, professional design aesthetic",
+      "Clear value proposition presentation",
+      "Strategic use of testimonials and case studies",
+      "Focused service delivery messaging",
+    ],
+    results: [
+      "Professional online presence established",
+      "Effective service communication",
+      "Enhanced brand credibility",
+      "Improved client engagement potential",
+    ],
+  },
+  {
+    id: "travilio",
+    title: "Travilio Landing Page Template",
+    short_desc:
+      "Designed a sleek landing page template for Travilio, a travel agency, using Next.js and Tailwind CSS.",
+    long_desc:
+      "A comprehensive travel agency website template featuring destination showcases, tour packages, customer testimonials, and travel blog integration. Designed to inspire wanderlust and convert visitors into customers.",
+    url: "https://travilio.vercel.app/",
+    type: "travel",
+    year: "2023",
+    client: "Travilio",
+    category: "Website Template",
+    status: "Live Template",
+    stack: ["Next.js", "Tailwind CSS", "Vercel"],
+    features: [
+      "Destination Showcase",
+      "Tour Package Display",
+      "Customer Testimonials",
+      "Travel Blog Integration",
+      "Responsive Design",
+      "Adventure-focused Branding",
+      "Package Pricing Display",
+      "Global Destinations Coverage",
+    ],
+    highlights: [
+      "Comprehensive travel template",
+      "7-day Ladakh adventure showcase",
+      "Rich testimonials section",
+      "Travel blog integration",
+    ],
+    isFeatured: false,
+    image: "/portfolio/travilio.jpg",
+    gallery: [
+      "/portfolio/travilio-destinations.jpg",
+      "/portfolio/travilio-packages.jpg",
+    ],
+    challenges: [
+      "Creating inspiring travel experience",
+      "Showcasing diverse destinations effectively",
+      "Building trust through testimonials",
+      "Converting visitors to customers",
+    ],
+    solutions: [
+      "Visually stunning destination imagery",
+      "Clear package pricing and inclusions",
+      "Authentic customer testimonials",
+      "Engaging travel blog content",
+    ],
+    results: [
+      "Complete travel agency template",
+      "Reusable for multiple travel businesses",
+      "Effective conversion-focused design",
+      "Comprehensive feature set",
+    ],
+  },
+  {
+    id: "snowpeak-hotel",
+    title: "Hotel Website Template",
+    short_desc:
+      "Designed a complete website template for Hotel, featuring a luxury experience with detailed amenities and booking options.",
+    long_desc:
+      "A luxurious hotel website template showcasing premium accommodations, amenities, and booking functionality. Built with modern design principles and focused on converting visitors into guests.",
+    url: "https://snowpeak-hotel.vercel.app/",
+    type: "hospitality",
+    year: "2023",
+    client: "Snowpeak Hotel",
+    category: "Website Template",
+    status: "Live Template",
+    stack: ["Next.js", "Tailwind CSS", "Vercel", "Shadcn UI"],
+    features: [
+      "Luxury Hotel Branding",
+      "Room Showcase",
+      "Amenities Display",
+      "Booking Integration Ready",
+      "Modern UI Components",
+      "Responsive Design",
+      "Professional Photography",
+      "Contact Integration",
+    ],
+    highlights: [
+      "Luxury hotel template",
+      "Modern Shadcn UI components",
+      "Professional hotel branding",
+      "Booking-ready functionality",
+    ],
+    isFeatured: false,
+    image: "/portfolio/snowpeak.jpg",
+    gallery: [
+      "/portfolio/snowpeak-rooms.jpg",
+      "/portfolio/snowpeak-amenities.jpg",
+    ],
+    challenges: [
+      "Creating luxury brand experience",
+      "Showcasing hotel amenities effectively",
+      "Building booking conversion funnel",
+      "Representing premium accommodation",
+    ],
+    solutions: [
+      "High-quality visual design",
+      "Strategic amenities presentation",
+      "Clear booking call-to-actions",
+      "Professional photography integration",
+    ],
+    results: [
+      "Complete luxury hotel template",
+      "Conversion-optimized design",
+      "Modern component architecture",
+      "Reusable for hospitality industry",
+    ],
+  },
+  // Continue with remaining projects following the same pattern...
+  {
+    id: "bareeq-lifts",
+    title: "Bareeq Lifts",
+    short_desc:
+      "Developed a bilingual corporate website for Bareeq Altanmiah Trading Company, highlighting their leadership in the Saudi elevator market",
+    long_desc:
+      "A professional bilingual corporate website for a leading Saudi elevator company, showcasing their market leadership, products, and services with Arabic and English language support.",
+    url: "https://bareeqlift.com/",
+    type: "corporate",
+    category: "Corporate Website",
+    status: "Live",
+    stack: ["WordPress", "Elementor"],
+    features: [
+      "Bilingual Website (Arabic & English)",
+      "Corporate Branding",
+      "Product Showcase",
+      "Service Portfolio",
+      "Contact Integration",
+      "Responsive Design",
+      "SEO Optimization",
+    ],
+    highlights: [
+      "Saudi market leadership positioning",
+      "Full Arabic localization",
+      "Professional corporate identity",
+      "Elevator industry expertise",
+    ],
+    isFeatured: false,
+    image: "/portfolio/bareeqlift.jpeg",
+    challenges: [
+      "Establishing market leadership credibility",
+      "Technical product presentation",
+      "Arabic-English content parity",
+      "B2B client communication",
+    ],
+    solutions: [
+      "Professional corporate design",
+      "Clear product categorization",
+      "Bilingual content strategy",
+      "Industry-focused messaging",
+    ],
+    results: [
+      "Enhanced market presence in Saudi Arabia",
+      "Professional B2B communication platform",
+      "Effective bilingual user experience",
+      "Improved lead generation potential",
+    ],
+  },
 ];

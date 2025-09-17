@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/card";
 
 export const TechStackGrid = () => {
   return (
-    <div className="py-14 lg:pb-28">
+    <div className="my-14 lg:my-28">
       <SectionTitle
         title="Tech Stack"
         tagline="Technologies which I have learned and mostly use in my projects"

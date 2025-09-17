@@ -10,7 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Calendar, User } from "lucide-react";
+import { ArrowUpRight, Calendar, User } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
@@ -70,12 +70,12 @@ export const ProjectCard = ({ work }: IProjectCardProps) => {
         </div>
       </CardContent>
       <CardFooter className="flex w-full gap-2 pt-0">
-        <Button className="flex-1" asChild>
+        {/* <Button className="flex-1" asChild>
           <Link href={`/my-work/${work.id}`}>View Details</Link>
-        </Button>
-        <Button variant="secondary" asChild>
+        </Button> */}
+        <Button variant="outline" className="flex-1" asChild>
           <Link target="_blank" href={work.url}>
-            Live View
+            Live View <ArrowUpRight className="w-4 h-4" />
           </Link>
         </Button>
       </CardFooter>

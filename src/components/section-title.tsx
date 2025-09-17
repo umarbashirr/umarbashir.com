@@ -19,9 +19,9 @@ export const SectionTitle = ({
 }: ISectionProps) => {
   return (
     <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-8 mb-10">
-      <div>
+      <div className="w-full">
         <h2 className="text-4xl font-bold">{title}</h2>
-        <p className="mt-4 text-sm max-w-[80%]">{tagline}</p>
+        <p className="mt-4 text-sm">{tagline}</p>
       </div>
       {hasLink && (
         <Button asChild variant="outline">

@@ -9,10 +9,8 @@ export function Footer() {
     <>
       <section className="bg-transparent py-8 md:py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Let&#39;s Get Connected
-          </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto mb-8 text-lg">
+          <h2 className="text-4xl font-bold mb-6">Let&#39;s Get Connected</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
             Interested in collaborating or have a project in mind? I&#39;m
             always open to new opportunities and exciting challenges.
           </p>
@@ -35,7 +33,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Umar Bashir's GitHub profile"
-                className="text-gray-700 hover:text-gray-300 transition-colors duration-300"
+                className="text-muted-foreground hover:text-gray-300 transition-colors duration-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +52,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Umar Bashir's LinkedIn profile"
-                className="text-gray-700 hover:text-gray-300 transition-colors duration-300"
+                className="text-muted-foreground hover:text-gray-300 transition-colors duration-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +71,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Umar Bashir's X profile"
-                className="text-gray-700 hover:text-gray-300 transition-colors duration-300"
+                className="text-muted-foreground hover:text-gray-300 transition-colors duration-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +86,7 @@ export function Footer() {
             </div>
 
             {/* Copyright */}
-            <p className="text-sm text-gray-300">
+            <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} Umar Bashir. All Rights Reserved.
             </p>
           </div>

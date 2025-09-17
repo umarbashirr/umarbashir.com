@@ -15,7 +15,7 @@ const LandingHeroSection = () => {
           digital products.
         </p>
         <div className="w-full flex items-center justify-center gap-4 mt-6">
-          <Button variant="secondary" asChild size="lg" className="py-5 px-10">
+          <Button asChild size="lg" className="py-5 px-10">
             <Link
               href="mailto:mail.umarbashir@gmail.com"
               target="_blank"
@@ -24,7 +24,7 @@ const LandingHeroSection = () => {
               Hire Me
             </Link>
           </Button>
-          <Button asChild size="lg" className="py-3 px-10">
+          <Button asChild size="lg" variant="outline" className="py-3 px-10">
             <Link href="/my-work">My Work</Link>
           </Button>
         </div>

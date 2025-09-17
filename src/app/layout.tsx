@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${font.className} antialiased h-full`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
